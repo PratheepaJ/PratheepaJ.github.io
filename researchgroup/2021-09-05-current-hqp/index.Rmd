@@ -27,7 +27,7 @@ projects: []
 
 |Name|Role|Research |Note|
 |--|--|--|--|
-|Mariana Mariles Torres|Research Assistant III|Application of diffTop|Fall 2021|
+|Mariana Mariles Torres|Undergraduate Research Assistant |Application of [diffTop](https://github.com/PratheepaJ/diffTop)|Fall 2021|
 
 
 
