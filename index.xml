@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
+    <title></title>
     <link>https://PratheepaJ.github.io/</link>
       <atom:link href="https://PratheepaJ.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <description></description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
-      <title>Academic</title>
+      <title></title>
       <link>https://PratheepaJ.github.io/</link>
     </image>
     
@@ -17,6 +17,14 @@
       <link>https://PratheepaJ.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://PratheepaJ.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>https://PratheepaJ.github.io/researchgroup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://PratheepaJ.github.io/researchgroup/</guid>
       <description></description>
     </item>
     
