@@ -17,4 +17,4 @@ image:
 projects: []
 ---
 
-We welcome undergraduate Spring/Summer research students (two), undergraduate research assistants in Fall (one/two), undergraduate thesis students (one), graduate students (two master's and one Ph.D. student) in Fall, and postdocs in Fall. Please look at [Join Us](https://pratheepaj.github.io/joinus) for more details.
+We welcome undergraduate research students in Spring/Summer (two), undergraduate research assistants in Fall (one/two), undergraduate thesis students in Fall (one), graduate students (two master's and one Ph.D. student) in Fall, and postdocs in Fall. Please look at [Join Us](https://pratheepaj.github.io/joinus) for more details.
