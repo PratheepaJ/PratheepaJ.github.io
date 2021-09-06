@@ -26,10 +26,10 @@
   
     
   
-  <meta name="description" content="Deriving the formula for the variable in saddlepoint approximation for bivariate cumulative distribution function." />
+  <meta name="description" content="Deriving a class of statistical methods, bivariate SPBB which is an indirect method to construct a confidence region for the parameter(s) of interest." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://PratheepaJ.github.io/project/sap-bcdf/" />
+  <link rel="alternate" hreflang="en-us" href="https://PratheepaJ.github.io/project/mspbb/" />
 
   
 
@@ -315,7 +315,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://PratheepaJ.github.io/project/sap-bcdf/" />
+  <link rel="canonical" href="https://PratheepaJ.github.io/project/mspbb/" />
 
   
   
@@ -326,19 +326,18 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
     <meta property="twitter:site" content="@PratheepaJ" />
     <meta property="twitter:creator" content="@PratheepaJ" />
   
   <meta property="og:site_name" content="" />
-  <meta property="og:url" content="https://PratheepaJ.github.io/project/sap-bcdf/" />
-  <meta property="og:title" content="Saddlepoint Approximation for Bivariate Cumulative Distribution Function | " />
-  <meta property="og:description" content="Deriving the formula for the variable in saddlepoint approximation for bivariate cumulative distribution function." /><meta property="og:image" content="https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://PratheepaJ.github.io/project/mspbb/" />
+  <meta property="og:title" content="Multivariate Saddlepoint-Based Bootstrap Method (MSPBB) | " />
+  <meta property="og:description" content="Deriving a class of statistical methods, bivariate SPBB which is an indirect method to construct a confidence region for the parameter(s) of interest." /><meta property="og:image" content="https://PratheepaJ.github.io/project/mspbb/featured.png" />
+    <meta property="twitter:image" content="https://PratheepaJ.github.io/project/mspbb/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -346,7 +345,7 @@
         content="2021-09-05T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2021-09-05T22:38:36-04:00">
+    <meta property="article:modified_time" content="2021-09-05T22:48:11-04:00">
   
 
   
@@ -368,12 +367,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://PratheepaJ.github.io/project/sap-bcdf/"
+    "@id": "https://PratheepaJ.github.io/project/mspbb/"
   },
-  "headline": "Saddlepoint Approximation for Bivariate Cumulative Distribution Function",
+  "headline": "Multivariate Saddlepoint-Based Bootstrap Method (MSPBB)",
+  
+  "image": [
+    "https://PratheepaJ.github.io/project/mspbb/featured.png"
+  ],
   
   "datePublished": "2021-09-05T00:00:00Z",
-  "dateModified": "2021-09-05T22:38:36-04:00",
+  "dateModified": "2021-09-05T22:48:11-04:00",
   
   "author": {
     "@type": "Person",
@@ -388,7 +391,7 @@
       "url": "https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Deriving the formula for the variable in saddlepoint approximation for bivariate cumulative distribution function."
+  "description": "Deriving a class of statistical methods, bivariate SPBB which is an indirect method to construct a confidence region for the parameter(s) of interest."
 }
 </script>
 
@@ -404,11 +407,11 @@
 
 
 
-  <title>Saddlepoint Approximation for Bivariate Cumulative Distribution Function | </title>
+  <title>Multivariate Saddlepoint-Based Bootstrap Method (MSPBB) | </title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ea443e0abbab6521b5b12c3fa0681aa1" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="b4ee45b03189250f0af95858a1918e13" >
 
   
   
@@ -759,18 +762,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
-  
-  
-<div class="article-container pt-3">
-  <h1>Saddlepoint Approximation for Bivariate Cumulative Distribution Function</h1>
-
-  
-
   
     
+  
+
+
+<div class="article-container pt-3">
+  <h1>Multivariate Saddlepoint-Based Bootstrap Method (MSPBB)</h1>
+
+  
+
+  
 
 
 <div class="article-metadata">
@@ -806,13 +817,20 @@
 
 </div>
 
-    
-
-
-
-
-
   
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 602px;">
+  <div style="position: relative">
+    <img src="/project/mspbb/featured_huddacfdd7c4cb17ccfee1760073186fae_145075_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -821,28 +839,29 @@
 
     <div class="article-style">
       
-<script src="https://PratheepaJ.github.io/project/sap-bcdf/index_files/header-attrs/header-attrs.js"></script>
+<script src="https://PratheepaJ.github.io/project/mspbb/index_files/header-attrs/header-attrs.js"></script>
 
 
-<p>We identify the expression for the variable that was not defined in <a href="https://www.cambridge.org/core/journals/journal-of-applied-probability/article/saddlepoint-approximations-for-bivariate-distributions/BA1D4A854B7DEEB68A5C1CF054ADDF9C">Wang (1990)</a> to approximate the bivariate distributions.</p>
+<p>Wang (1990) devised an analytical approximation for the bivariate CDF for a rectangular set using the Lugannani and Rice (1980) formula and the standard bivariate normal distribution. We considered the theoretical study of the saddlepoint approximation for the bivariate distributions and provided necessary corrections and clarifications for the formula established by Wang (1990).</p>
+<p>The numerical methods are used to compute the probability when the set is non-rectangular. There are many applications where inferences on a particular parameter <span class="math inline">\(\theta_{1}\)</span> in the presence of other <span class="math inline">\(k-1\)</span> parameters are necessary. Obtaining a marginal probability distribution for <span class="math inline">\(\hat{\theta}_{1}\)</span> is a straightforward matter of letting the arguments corresponding to the remaining parameters approach infinite values in the joint CDF of <span class="math inline">\(k\)</span> estimators. In order to approximate the joint CDF of estimators, we consider a class of problems in which the estimators <span class="math inline">\(\left[\hat{\theta}_{1}, \ldots, \hat{\theta}_{k}\right]^{T}\)</span> may be determined as the roots of <span class="math inline">\(k\)</span> distinct estimating equations.</p>
 <div id="application" class="section level2">
 <h2>Application</h2>
-<p>Construct confidence interval by inverting joint distribution of the estimators (MSPBB).</p>
+<p>We can construct a joint confidence region for multi-dimensional parameters.</p>
 </div>
 <div id="method" class="section level2">
 <h2>Method</h2>
-<p>Wang (1990) derived the saddlepoint approximation for bivariate distributions using the saddlepoint approximation for distribution (Lugannani &amp; Rice, 1980) and standard bivariate normal distribution. We used complex analysis to derive the expression for the variable that was not defined in <a href="https://www.cambridge.org/core/journals/journal-of-applied-probability/article/saddlepoint-approximations-for-bivariate-distributions/BA1D4A854B7DEEB68A5C1CF054ADDF9C">Wang (1990)</a> to approximate the bivariate distributions.</p>
+<p>First, we derive estimating equations as a vector of quadratic forms in normal random variables. Then, we identify the moment-generating function of quadratic forms in a normal random variable. Next, we derive the necessary and sufficient conditions to approximate the CDF of estimators via estimating equations. Finally, we invert the CDF of estimators to construct a joint confidence region.</p>
 </div>
 <div id="software" class="section level2">
 <h2>Software</h2>
 <ul>
-<li>PhD dissertation Chapter I, section 1.3 supplement.</li>
+<li>PhD dissertation Chapter I, section 1.2 supplement.</li>
 </ul>
 </div>
 <div id="paper" class="section level2">
 <h2>Paper</h2>
 <ul>
-<li>PhD dissertation Chapter I, section 1.3.</li>
+<li>PhD dissertation Chapter I, section 1.2.</li>
 </ul>
 </div>
 
@@ -868,7 +887,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://PratheepaJ.github.io/project/sap-bcdf/&amp;text=Saddlepoint%20Approximation%20for%20Bivariate%20Cumulative%20Distribution%20Function" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://PratheepaJ.github.io/project/mspbb/&amp;text=Multivariate%20Saddlepoint-Based%20Bootstrap%20Method%20%28MSPBB%29" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -881,7 +900,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://PratheepaJ.github.io/project/sap-bcdf/&amp;t=Saddlepoint%20Approximation%20for%20Bivariate%20Cumulative%20Distribution%20Function" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://PratheepaJ.github.io/project/mspbb/&amp;t=Multivariate%20Saddlepoint-Based%20Bootstrap%20Method%20%28MSPBB%29" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -894,7 +913,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Saddlepoint%20Approximation%20for%20Bivariate%20Cumulative%20Distribution%20Function&amp;body=https://PratheepaJ.github.io/project/sap-bcdf/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Multivariate%20Saddlepoint-Based%20Bootstrap%20Method%20%28MSPBB%29&amp;body=https://PratheepaJ.github.io/project/mspbb/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -907,7 +926,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://PratheepaJ.github.io/project/sap-bcdf/&amp;title=Saddlepoint%20Approximation%20for%20Bivariate%20Cumulative%20Distribution%20Function" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://PratheepaJ.github.io/project/mspbb/&amp;title=Multivariate%20Saddlepoint-Based%20Bootstrap%20Method%20%28MSPBB%29" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -920,7 +939,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Saddlepoint%20Approximation%20for%20Bivariate%20Cumulative%20Distribution%20Function%20https://PratheepaJ.github.io/project/sap-bcdf/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Multivariate%20Saddlepoint-Based%20Bootstrap%20Method%20%28MSPBB%29%20https://PratheepaJ.github.io/project/mspbb/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -933,7 +952,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://PratheepaJ.github.io/project/sap-bcdf/&amp;title=Saddlepoint%20Approximation%20for%20Bivariate%20Cumulative%20Distribution%20Function" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://PratheepaJ.github.io/project/mspbb/&amp;title=Multivariate%20Saddlepoint-Based%20Bootstrap%20Method%20%28MSPBB%29" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
