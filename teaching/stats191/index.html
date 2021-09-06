@@ -1,0 +1,1564 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introduction to Applied Statistics." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://PratheepaJ.github.io/teaching/stats191/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.8b98a1e8decf5cf09671624e1c639685.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127179591-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-127179591-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://PratheepaJ.github.io/teaching/stats191/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@PratheepaJ" />
+    <meta property="twitter:creator" content="@PratheepaJ" />
+  
+  <meta property="og:site_name" content="" />
+  <meta property="og:url" content="https://PratheepaJ.github.io/teaching/stats191/" />
+  <meta property="og:title" content="STATS 191 (Autumn 2019, Stanford) | " />
+  <meta property="og:description" content="Introduction to Applied Statistics." /><meta property="og:image" content="https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-09-05T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-09-05T23:46:47-04:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>STATS 191 (Autumn 2019, Stanford) | </title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="77f6f41f31e8b4aebd0300fb0541f425" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/researchgroup"><span>Research group</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/joinus"><span>Join us</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>STATS 191 (Autumn 2019, Stanford)</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Sep 5, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+<script src="https://PratheepaJ.github.io/teaching/stats191/index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="description" class="section level1">
+<h1>Description</h1>
+<p><a href="https://explorecourses.stanford.edu/search?q=STATS+191&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;collapse=&amp;filter-coursestatus-Active=on">Course link.</a></p>
+</div>
+<div id="syllabus" class="section level1">
+<h1>Syllabus</h1>
+<div id="course-overview" class="section level2">
+<h2>Course Overview</h2>
+<p>Statistical tools for modern data analysis. Topics include regression and prediction, elements of the analysis of variance, bootstrap, and cross-validation. Emphasis is on conceptual rather than theoretical understanding. Student assignments require use of the software package <a href="http://cran.r-project.org">R</a>.</p>
+</div>
+<div id="expected-outcomes" class="section level2">
+<h2>Expected outcomes</h2>
+<p>By the end of the course, students should be able to:</p>
+<ul>
+<li>Enter tabular data using <a href="http://cran.r-project.org">R</a>.</li>
+<li>Plot data using <a href="http://cran.r-project.org">R</a>, to help in exploratory data analysis.</li>
+<li>Formulate regression models for the data, while understanding some of the limitations and assumptions implicit in using these models.</li>
+<li>Fit models using <a href="http://cran.r-project.org">R</a> and interpret the output.</li>
+<li>Test for associations in a given model.</li>
+<li>Use diagnostic plots and tests to assess the adequacy of a particular model.</li>
+<li>Find confidence intervals for the effects of different explanatory variables in the model.</li>
+<li>Use some basic model selection procedures, as found in <a href="http://cran.r-project.org">R</a>, to find a <em>best</em> model in a class of models.</li>
+<li>Fit simple ANOVA models in <a href="http://cran.r-project.org">R</a>, treating them as special cases of multiple regression models.</li>
+<li>Fit simple logistic and Poisson regression models.</li>
+</ul>
+</div>
+<div id="course-information" class="section level2">
+<h2>Course Information</h2>
+<ul>
+<li>Term: Autumn 2019</li>
+<li>Units: 3</li>
+<li>Time: Mon, Wed, Fri 1:30 PM - 2:20 PM</li>
+<li>Location: <a href="https://campus-map.stanford.edu/?srch=Gates+B3#">Gates B3</a></li>
+<li>LEC: 09/23/2019 - 12/06/2019 (10 Weeks - 30 hours)</li>
+</ul>
+</div>
+<div id="prerequisites" class="section level2">
+<h2>Prerequisites</h2>
+<p>An introductory statistics course, such as
+- <a href="https://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;academicYear=20182019&amp;q=STATS+60%3A+Introduction+to+Statistical+Methods%3A+Precalculus+&amp;collapse=">STATS 60</a> or <a href="https://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;academicYear=20182019&amp;q=STATS+110%3A+Statistical+Methods+in+Engineering+and+the+Physical+Sciences&amp;collapse=">STATS 110</a> or <a href="https://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;academicYear=&amp;q=stats141&amp;collapse=">STATS 141</a>.</p>
+</div>
+<div id="textbook" class="section level2">
+<h2>Textbook</h2>
+<ul>
+<li>Required:
+<ul>
+<li><strong>(CH)</strong> <a href="http://www1.aucegypt.edu/faculty/hadi/RABE5">Regression Analysis by Example</a>.
+<ul>
+<li>Authors: Samprit Chatterjee, Ali S. Hadi</li>
+<li>Edition: <span class="math inline">\(5^{th}\)</span> Edition</li>
+<li>Print <a href="ISBN:978-0-470-90584-05" class="uri">ISBN:978-0-470-90584-05</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="software" class="section level2">
+<h2>Software</h2>
+<ul>
+<li>In this course, we will use R for computing and R Markdown for producing lecture slides, solutions for homework assignments. R Markdown is highly recommended to write the solutions for homework assignments. Install the following software:
+<ul>
+<li>R (required): <a href="https://www.r-project.org/">https://www.r-project.org/</a>.</li>
+<li>R Studio is highly recommended for syntax highlighting, package management, document generation, and more: <a href="https://www.rstudio.com/">https://www.rstudio.com/</a>.
+<ul>
+<li>The newest version of R Studio is highly recommended.</li>
+</ul></li>
+<li>Latex, which will enable you to create PDFs directly from the R Markdown in RStudio.
+<ul>
+<li>Install <a href="https://yihui.name/tinytex/">Tinytex</a>
+<ul>
+<li>install.packages(‘tinytex’)</li>
+<li>tinytex::install_tinytex()</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="evaluation" class="section level2">
+<h2>Evaluation</h2>
+<p>The final letter grade for this course will be determined by each method of assessment weighted as follows:</p>
+<ul>
+<li>7 weekly homework assignments (55%)</li>
+<li>Midterm examination (15%, Wednesday, 10/23/2019)</li>
+<li>Final examination (30%, according to Stanford calendar: Wednesday, 12/11/2019 @ 3:30 PM, location TBD)</li>
+</ul>
+</div>
+<div id="policies" class="section level2">
+<h2>Policies</h2>
+<ul>
+<li>Class Participation
+<ul>
+<li><strong>Bonus points 5%</strong>. Pop quizzes will be given in class (SCPD students can complete in 24 hours). Scan your hand-written solutions as a PDF file/write down your answer in R markdown and render your answer to PDF and upload your answers to <a href="https://www.gradescope.com/courses/60528">gradescope.</a></li>
+<li>In-class participation and Piazza discussion are encouraged.
+<ul>
+<li>Find our class page at: <a href="https://piazza.com/stanford/fall2019/stats191/home">https://piazza.com/stanford/fall2019/stats191/home</a></li>
+<li>This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. If you have any problems or feedback for the developers, email <a href="mailto:team@piazza.com" class="email">team@piazza.com</a>.</li>
+</ul></li>
+<li>When homework involves simulations and data analysis, you will use R statistical computing software. Please post your R or R Markdown questions to Piazza.</li>
+<li>Instructor or TA or other students in your class can answer your questions.</li>
+<li>When asking questions about code, be specific (copy and paste the exact error, relevant code, and describe what you are attempting to do). We will not answer questions that are too similar to the problem sets or that would be better answered in office hours with a whiteboard. Needless to say, you should conduct yourself in a courteous and respectful manner on Canvas Discussion.</li>
+</ul></li>
+<li>Weekly homework assignments
+<ul>
+<li>Homework assignment will be assigned every Friday on <a href="https://canvas.stanford.edu/courses/108253/assignments">Canvas Assignments</a>.</li>
+<li>Homework assignment will be due every Friday.
+<ul>
+<li>Prepare your completed homework assignment in PDF format and submit a copy to <a href="https://www.gradescope.com/courses/60528">gradescope.</a></li>
+<li>Write the solution for each question on a new page (use <code>\newpage</code>).</li>
+</ul></li>
+<li>Use <a href="https://bookdown.org/yihui/rmarkdown/">R markdown</a> in R Studio and render it to PDF
+<ul>
+<li>See the following link for further outline of using <a href="http://www.stat.cmu.edu/~cshalizi/rmarkdown/rmarkdown.Rmd">R markdown for reporting</a>.</li>
+</ul></li>
+<li>Each question in the homework assignment will be graded as follows: <span class="math inline">\(scale \in \left\lbrace 0,1,2\right\rbrace\)</span>
+<ul>
+<li>2: submitted on time and more or less correct answer</li>
+<li>1: submitted on time and partially correct answer</li>
+<li>0: submitted with a completely incorrect answer or late submission (any day after the due date for more than one homework assignment).</li>
+</ul></li>
+<li>Each student can hand in only one homework late (within three days after the deadline).</li>
+<li>After attempting homework problems on an individual basis, students may discuss a homework assignment with their classmates. However, students must write up their own solutions individually and explicitly indicate from whom (if anyone) or resources students received help at the top of their homework solutions.</li>
+</ul></li>
+<li>Midterm examination
+<ul>
+<li>In-class examination: Wednesday, October 23, 2019 @ 1:30PM - 2.20 PM, Gates B3.</li>
+<li>Students <strong>are not allowed</strong> to take midterm examinations other than the scheduled date and time (except for the event of extraordinary circumstance that is determined solely by me.)</li>
+</ul></li>
+<li>Final examination
+<ul>
+<li>In-class examination.</li>
+<li>Following the Stanford <a href="https://registrar.stanford.edu/autumn-quarter-exams">calendar</a>: Wednesday, December 11, 2019 @ 3:30PM-6:30 PM, location TBD.</li>
+<li>Students <strong>are not allowed</strong> to take final examinations earlier than the scheduled date and time (except for the event of extraordinary circumstance that is determined solely by me.).</li>
+<li>Students <strong>are not allowed</strong> to take this course with another conflicting final examination schedule.</li>
+</ul></li>
+<li>Accessible Education
+<ul>
+<li>Students with Documented Disabilities: Students who may need an academic accommodation based on the impact of a disability must initiate the request with the Office of Accessible Education (OAE). Professional staff will evaluate the request with required documentation, recommend reasonable accommodations, and prepare an Accommodation Letter for faculty. Unless the student has a temporary disability, Accommodation letters are issued for the entire academic year. Students should contact the OAE as soon as possible since timely notice is needed to coordinate accommodations. The OAE is located at 563 Salvatierra Walk (phone: 723-1066, <a href="https://oae.stanford.edu/">URL:https://oae.stanford.edu/</a>.)</li>
+<li>Provide me an accommodation letter on or before <strong>09/30/2019</strong>.</li>
+</ul></li>
+<li>Honor Code
+<ul>
+<li>Students are bound by the <a href="https://communitystandards.stanford.edu/policies-and-guidance/honor-code">Stanford Honor Code</a>. Violation of the honor code will result in a failing grade among other penalties.</li>
+</ul></li>
+<li>Stanford Center for Professional Development (SCPD)
+<ul>
+<li>Stats 191 is listed as one of the SCPD courses.</li>
+<li>Lecture recordings are being made and might be shared with others at Stanford beyond those currently enrolled in the class.</li>
+<li>SCPD policies on student privacy: <strong>Video cameras located in the back of the room will capture the instructor presentations in this course. For your convenience, you can access these recordings by logging into the course Canvas site. These recordings might be reused in other Stanford courses, viewed by other Stanford students, faculty, or staff, or used for other education and research purposes. Note that while the cameras are positioned with the intention of recording only the instructor, occasionally a part of your image or voice might be incidentally captured. If you have questions, please contact a member of the teaching team.</strong></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="lecture-notes" class="section level1">
+<h1>Lecture Notes</h1>
+<div id="course-schedule" class="section level2">
+<h2>Course Schedule</h2>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Week</th>
+<th>Topic</th>
+<th>Reading</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>09/23/2019</strong></td>
+<td>Week 1 <a href="Lecture_1_course_logistics.pdf">Lecture 1</a></td>
+<td>Course introduction and review</td>
+<td>Syllabus, Lecture notes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>09/25/2019</strong></td>
+<td>Week 1 <a href="Lecture_2_Review.pdf">Lecture 2</a></td>
+<td>Review</td>
+<td><strong>CH</strong>: Chapter 1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>09/27/2019</strong></td>
+<td>Week 1 <a href="Lecture_3_tips_on_R.pdf">Lecture 3</a></td>
+<td>Some tips on R</td>
+<td>Lecture notes</td>
+<td><a href="homework_assignment_1.pdf"><strong>Homework 1 posted</strong></a></td>
+</tr>
+<tr class="even">
+<td><strong>09/30/2019</strong></td>
+<td>Week 2 <a href="Lecture_4_simple_linear_regression.pdf">Lecture 4</a></td>
+<td>Simple linear regression 1 (introduction, correlation, model, estimation)</td>
+<td><strong>CH</strong>: Chapter 2.1-2.4</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td><strong>10/02/2019</strong></td>
+<td>Week 2 <a href="Lecture_7_simple_linear_regression_II.pdf">Lecture 5</a></td>
+<td>Simple linear regression 2 (inference and prediction)</td>
+<td><strong>CH</strong>: Chapter 2.5-2.8</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>10/04/2019</strong></td>
+<td>Week 2 <a href="Lecture_8_Diagnostics_for_SLR.pdf">Lecture 6</a></td>
+<td>Diagnostics for simple linear regression</td>
+<td><strong>CH</strong>: Chapter 2.9</td>
+<td><a href="homework_assignment_2.pdf"><strong>Homework 2 posted</strong></a>, <strong>Homework 1 Due</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>10/07/2019</strong></td>
+<td>Week 3 <a href="Lecture_10_Multiple_linear_regression.pdf">Lecture 7</a></td>
+<td>Multiple linear regression 1 (introduction, model, estimation, geometry of least squares)</td>
+<td><strong>CH</strong>: Chapter 3.1-3.5</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>10/09/2019</strong></td>
+<td>Week 3 <a href="Lecture_11_Multiple_linear_regression_II.pdf">Lecture 8</a></td>
+<td>Multiple linear regression 2 (interpretation, matrix formulation, estimation, inference)</td>
+<td><strong>CH</strong>: Chapter 3.6-3.9</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td><strong>10/11/2019</strong></td>
+<td>Week 3 <a href="Lecture_13_Multiple_linear_regression_III.pdf">Lecture 9</a>, <a href="Lecture_15_Multiple_linear_regression_IV.pdf">Lecture 9</a></td>
+<td>Multiple linear regression 3 (prediction, contrasts, testing)</td>
+<td><strong>CH</strong>: Chapter 3.10-3.11</td>
+<td><a href="homework_assignment_3.pdf"><strong>Homework 3 posted</strong></a>, <strong>Homework 2 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>10/14/2019</strong></td>
+<td>Week 4 <a href="Lecture_17_Diagnostic_in_multiple_linear_regression.pdf">Lecture 10</a></td>
+<td>Diagnostics in multiple linear regression (types of residuals, influence)</td>
+<td><strong>CH</strong>: Chapter 4</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td><strong>10/16/2019</strong></td>
+<td>Week 4 <a href="Lecture_18_Diagnostic_in_multiple_linear_regression_II.pdf">Lecture 11</a></td>
+<td>Diagnostics in multiple linear regression (outlier detection, residual plots)</td>
+<td><strong>CH</strong>: Chapter 4</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>10/18/2019</strong></td>
+<td>Week 4 <a href="Lecture_19_Interactions_and_qualitative_variables.pdf">Lecture 12</a></td>
+<td>Interactions and qualitative variables (interactions)</td>
+<td><strong>CH</strong>: Chapter 5</td>
+<td><a href="homework_assignment_4.pdf"><strong>Homework 4 posted</strong></a>, <strong>Homework 3 Due</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>10/21/2019</strong></td>
+<td>Week 5 <a href="Lecture_20_Interactions_and_qualitative_variables_II.pdf">Lecture 13</a></td>
+<td>Interactions and qualitative variables (visualization, ANOVA)</td>
+<td><strong>CH</strong>: Chapter 5</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>10/23/2019</strong></td>
+<td>Week 5 </td>
+<td>–</td>
+<td>–</td>
+<td>Midterm Examinations </td>
+</tr>
+<tr class="odd">
+<td><strong>10/25/2019</strong></td>
+<td>Week 5 <a href="Lecture_21_Analysis_of_variance.pdf">Lecture 15</a></td>
+<td>ANOVA models (one-way ANOVA, testing, contrasts)</td>
+<td><strong>CH</strong>: Chapter 5</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>10/28/2019</strong></td>
+<td>Week 6 <a href="Lecture_21_Analysis_of_variance.pdf">Lecture 16</a></td>
+<td>ANOVA models (two-way ANOVA, testing, contrasts, mixed effects model)</td>
+<td><strong>CH</strong>: Chapter 5</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td><strong>10/30/2019</strong></td>
+<td>Week 6 <a href="Lecture_23_Transformation_and_weighted_least_squares.pdf">Lecture 17</a></td>
+<td>Transformations and Weighted Least Squares</td>
+<td><strong>CH</strong>: Chapter 6,7</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>11/01/2019</strong></td>
+<td>Week 6 <a href="Lecture_25_Correlated_Errors.pdf">Lecture 18</a></td>
+<td>Correlated errors</td>
+<td><strong>CH</strong>: Chapter 8,9</td>
+<td><a href="homework_assignment_5.pdf"><strong>Homework 5 posted</strong></a>, <strong>Homework 4 Due</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>11/04/2019</strong></td>
+<td>Week 7 [Lecture 19]</td>
+<td>Correlated errors</td>
+<td><strong>CH</strong>: Chapter 8,9</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>11/06/2019</strong></td>
+<td>Week 7 <a href="Lecture_26_Bootstrapping_regression.pdf">Lecture 20</a></td>
+<td>Bootstrapping regression</td>
+<td>Lecture notes will be provided</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td><strong>11/08/2019</strong></td>
+<td>Week 7 <a href="Lecture_27_Selection.pdf">Lecture 21</a></td>
+<td>Selection</td>
+<td><strong>CH</strong>: Chapter 11</td>
+<td><a href="homework_assignment_6.pdf"><strong>Homework 6 posted</strong></a>, <strong>Homework 5 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>11/11/2019</strong></td>
+<td>Week 8 [Lecture 22]</td>
+<td>Selection</td>
+<td><strong>CH</strong>: Chapter 11</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td><strong>11/13/2019</strong></td>
+<td>Week 8 [Lecture 23]</td>
+<td>Selection</td>
+<td><strong>CH</strong>: Chapter 11</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>11/15/2019</strong></td>
+<td>Week 8 <a href="Lecture_28_Penalized_regression.pdf">Lecture 24</a></td>
+<td>Penalized regression</td>
+<td><strong>CH</strong>: Chapter 10</td>
+<td><a href="homework_assignment_7.pdf"><strong>Homework 7 posted</strong></a>, <strong>Homework 6 Due</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>11/18/2019</strong></td>
+<td>Week 9 [Lecture 25]</td>
+<td>Penalized regression</td>
+<td><strong>CH</strong>: Chapter 10</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>11/20/2019</strong></td>
+<td>Week 9 [Lecture 26]</td>
+<td>Penalized regression</td>
+<td><strong>CH</strong>: Chapter 10</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td><strong>11/22/2019</strong></td>
+<td>Week 9 <a href="Lecture_29_Logistic_regression.pdf">Lecture 27</a></td>
+<td>Logistic regression</td>
+<td><strong>CH</strong>: Chapter 12</td>
+<td><strong>Homework 7 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>11/25/2019</strong></td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>Thanksgiving Recess (no classes)</td>
+</tr>
+<tr class="odd">
+<td><strong>11/27/2019</strong></td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>Thanksgiving Recess (no classes)</td>
+</tr>
+<tr class="even">
+<td><strong>11/29/2019</strong></td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>Thanksgiving Recess (no classes)</td>
+</tr>
+<tr class="odd">
+<td><strong>12/02/2019</strong></td>
+<td>Week 10 [Lecture 28]</td>
+<td>Logistic regression</td>
+<td><strong>CH</strong>: Chapter 12</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>12/04/2019</strong></td>
+<td>Week 10 [Lecture 29]</td>
+<td>Poisson regression</td>
+<td><strong>CH</strong>: Chapter 13.3</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td><strong>12/06/2019</strong></td>
+<td>Week 10 <a href="Lecture_30_Review.pdf">Lecture 30</a></td>
+<td>Final Review</td>
+<td>Review will be posted</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>12/11/2019</strong></td>
+<td></td>
+<td>–</td>
+<td>–</td>
+<td>End-Quarter examinations </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="important-dates" class="section level2">
+<h2>Important Dates</h2>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Day</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>10/11/2019</td>
+<td>Friday, 5:00 p.m.</td>
+<td>Last day to add or drop a class</td>
+</tr>
+<tr class="even">
+<td>10/23/2019</td>
+<td>Wednesday, 1:30-2:20 p.m.</td>
+<td>Midterm examination</td>
+</tr>
+<tr class="odd">
+<td>11/04/2019</td>
+<td>Monday, 5:00 p.m.</td>
+<td>Term withdrawal deadline with a partial refund</td>
+</tr>
+<tr class="even">
+<td>11/25/2019- 11/29/2019</td>
+<td>Monday - Friday</td>
+<td>Thanksgiving Recess (no classes)</td>
+</tr>
+<tr class="odd">
+<td>12/02/2019 - 12/08/2019</td>
+<td>Monday - Sunday</td>
+<td>End-Quarter Period</td>
+</tr>
+<tr class="even">
+<td>12/06/2019</td>
+<td>Friday</td>
+<td>Last day of classes</td>
+</tr>
+<tr class="odd">
+<td>12/11/2019</td>
+<td>Wednesday</td>
+<td>Final Examinations @ 3:30 p.m. - 6.30 p.m.</td>
+</tr>
+<tr class="even">
+<td>12/17/2019</td>
+<td>Tuesday, 11.59 p.m.</td>
+<td>Grades due</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="r-markdown-files" class="section level2">
+<h2>R Markdown files</h2>
+<p>R Markdown files to create the lecture slides are available <a href="https://github.com/PratheepaJ/STATS191">here</a>.</p>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://PratheepaJ.github.io/teaching/stats191/&amp;text=STATS%20191%20%28Autumn%202019,%20Stanford%29" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://PratheepaJ.github.io/teaching/stats191/&amp;t=STATS%20191%20%28Autumn%202019,%20Stanford%29" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=STATS%20191%20%28Autumn%202019,%20Stanford%29&amp;body=https://PratheepaJ.github.io/teaching/stats191/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://PratheepaJ.github.io/teaching/stats191/&amp;title=STATS%20191%20%28Autumn%202019,%20Stanford%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=STATS%20191%20%28Autumn%202019,%20Stanford%29%20https://PratheepaJ.github.io/teaching/stats191/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://PratheepaJ.github.io/teaching/stats191/&amp;title=STATS%20191%20%28Autumn%202019,%20Stanford%29" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.d68ecd57c0ec1f1f61d65fd568f1c3a0.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

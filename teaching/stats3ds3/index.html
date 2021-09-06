@@ -1,0 +1,1541 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Intoduction to Data Science Theory." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://PratheepaJ.github.io/teaching/stats3ds3/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.8b98a1e8decf5cf09671624e1c639685.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127179591-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-127179591-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://PratheepaJ.github.io/teaching/stats3ds3/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@PratheepaJ" />
+    <meta property="twitter:creator" content="@PratheepaJ" />
+  
+  <meta property="og:site_name" content="" />
+  <meta property="og:url" content="https://PratheepaJ.github.io/teaching/stats3ds3/" />
+  <meta property="og:title" content="STATS 3DS3 (Winter 2021, McMaster) | " />
+  <meta property="og:description" content="Intoduction to Data Science Theory." /><meta property="og:image" content="https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-09-05T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-09-05T23:48:43-04:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>STATS 3DS3 (Winter 2021, McMaster) | </title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a770e2814a5a3064e736df1a43365d3c" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/researchgroup"><span>Research group</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/joinus"><span>Join us</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>STATS 3DS3 (Winter 2021, McMaster)</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Sep 5, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+<script src="https://PratheepaJ.github.io/teaching/stats3ds3/index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="description" class="section level1">
+<h1>Description</h1>
+<p><a href="https://academiccalendars.romcmaster.ca/preview_course_nopop.php?catoid=41&amp;coid=217177">Course link.</a></p>
+</div>
+<div id="syllabus" class="section level1">
+<h1>Syllabus</h1>
+<div id="course-overview" class="section level2">
+<h2>Course overview</h2>
+<p>An introduction to data science theory is provided with some focus on analytics. Topics covered include an introduction to <a href="http://cran.r-project.org">R</a> and other appropriate computational platforms, data types, data manipulation, data frames, data visualization, data reporting, statistical/machine learning, classification, clustering, cross-validation, classification and regression trees, gradient boosting, ridge regression, LASSO, and generalized additive models. Familiarity with some computer package, e.g., SAS, Python, or MatLab, is required. This course includes a scientific communication component.</p>
+</div>
+<div id="expected-outcomes" class="section level2">
+<h2>Expected outcomes</h2>
+<p>Upon completion of this course, the student will be able to:</p>
+<ul>
+<li>use visualization tools to explore the data using R</li>
+<li>perform analysis using unsupervised and supervised learning methods</li>
+<li>analyze a real data set of moderate size using R and interpret the output</li>
+<li>write reusable data analysis reports using <a href="http://cran.r-project.org">R</a>, <a href="https://rstudio.com/">RStudio</a>, and <a href="https://rmarkdown.rstudio.com/">RMarkdown </a></li>
+</ul>
+</div>
+<div id="course-information" class="section level2">
+<h2>Course Information</h2>
+<ul>
+<li>Time:
+<ul>
+<li>C01: WF 3:30 PM - 4:20 PM</li>
+<li>L01: Tu 1:30 PM - 2:20 PM or L02: M 12:30 PM - 1:30 PM</li>
+</ul></li>
+<li>Location: Virtual classroom discussion in Zoom (C01) and Virtual tutorial discussion in Zoom (L01 or L02)</li>
+<li>Sessional dates: January 11, 2021 - April 14, 2021</li>
+</ul>
+</div>
+<div id="prerequisites" class="section level2">
+<h2>Prerequisites</h2>
+<p>One of <a href="https://academiccalendars.romcmaster.ca/preview_course_nopop.php?catoid=38&amp;coid=204480">ECON 3EE3</a> or <a href="https://academiccalendars.romcmaster.ca/preview_course_nopop.php?catoid=38&amp;coid=203323">PNB 3XE3</a> or <a href="https://academiccalendars.romcmaster.ca/preview_course_nopop.php?catoid=38&amp;coid=204426">SFWRTECH 4DA3 </a> or <a href="https://academiccalendars.romcmaster.ca/preview_course_nopop.php?catoid=38&amp;coid=203709">STATS 3A03</a>.</p>
+</div>
+<div id="textbook" class="section level2">
+<h2>Textbook</h2>
+<ul>
+<li>Suggested textbooks:
+<ul>
+<li><strong>ISLR</strong>: <a href="https://campusstore.mcmaster.ca/cgi-mcm/ws/txsub.pl?wsTERMG1=211&amp;wsDEPTG1=STATS&amp;wsCOURSEG1=3DS3&amp;wsSECTIONG1=DAY%20C01&amp;crit_cnt=1"><em>An Introduction to Statistical Learning with Applications in R</em></a> by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani (Springer, 1st ed., 2013). - available at campus store.</li>
+<li><strong>RDS</strong>: <a href="https://r4ds.had.co.nz/"><em>R for Data Science</em></a> by Garrett Grolemund and Hadley Wickham. - available online.</li>
+<li><strong>RMC</strong>: <a href="https://bookdown.org/yihui/rmarkdown-cookbook/"><em>R Markdown Cookbook</em></a> by Yihui Xie, Christophe Dervieux, Emily Riederer. - available online.</li>
+</ul></li>
+</ul>
+</div>
+<div id="software" class="section level2">
+<h2>Software</h2>
+<p>This course uses R and RStudio, which are both free. We recommend to set-up the computing environment earlier. We will also use the first-week lab session to ensure everyone is up and running with the computing environment.</p>
+<ul>
+<li>Install the following software (follow the interactive tutorial to install R and R Studio: <a href="https://learnr-examples.shinyapps.io/ex-setup-r/#section-install-r">click here</a>):
+<ul>
+<li>R (required): <a href="https://www.r-project.org/">https://www.r-project.org/</a>.</li>
+<li>RStudio is highly recommended for syntax highlighting, package management, document generation, and more: <a href="https://www.rstudio.com/">https://www.rstudio.com/</a>.
+<ul>
+<li>The newest version of RStudio is highly recommended.</li>
+</ul></li>
+<li>Latex, which will enable you to create PDFs directly from the RMarkdown in RStudio.
+<ul>
+<li>Install <a href="https://yihui.name/tinytex/">TinyTex</a> package: <code>install.packages("tinytex", repos =  "https://cloud.r-project.org/")</code>.</li>
+<li>After installing <a href="https://yihui.name/tinytex/">TinyTex</a>, close RStudio.</li>
+<li>Reopen RStudio.</li>
+<li>Run the following: <code>tinytex::install_tinytex()</code>.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="evaluation" class="section level2">
+<h2>Evaluation</h2>
+<p>The homework assignments and bonus points will determine the final letter grade for this course:</p>
+<ul>
+<li>Six homework assignments will be assigned.</li>
+<li>The best five assignments will count towards your overall grade.</li>
+<li>Each of your five best assignments will be worth 20% of the final grade.</li>
+</ul>
+<p>The final percentage to letter grade conversion will follow McMaster’s Grading Scale.</p>
+</div>
+</div>
+<div id="lecture-notes" class="section level1">
+<h1>Lecture notes</h1>
+<div id="course-schedule" class="section level2">
+<h2>Course Schedule</h2>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Week</th>
+<th>Topic</th>
+<th>Readings</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>01/11/2021</strong> or <strong>01/12/2021</strong></td>
+<td><strong>Week 1 (Lab 1)</strong></td>
+<td>Set up R, R Studio, RMarkdown example</td>
+<td>1) <a href="https://learnr-examples.shinyapps.io/ex-setup-r/#section-install-r">Interactive tutorial to install R and R Studio</a> 2) RMarkdown for Scientists <a href="https://rmd4sci.njtierney.com/">Chapter 1-5</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>01/13/2021</strong></td>
+<td>Week 1 (Lecture 1)</td>
+<td>Course introduction</td>
+<td>1) <strong>RDS</strong> <a href="https://r4ds.had.co.nz/introduction.html">Chapter 1-2</a> 2) <a href="https://macdrive.mcmaster.ca/f/37b7eb04845b44208711/">Outline</a> 3) RMarkdown for Scientists <a href="https://rmd4sci.njtierney.com/">Chapters 6-13</a> 4) <strong>RDS</strong> <a href="https://r4ds.had.co.nz/workflow-basics.html">Chapter 4</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>01/15/2021</strong></td>
+<td>Week 1 (Lecture 2)</td>
+<td>Data visualization I</td>
+<td>1) <strong>RDS</strong> <a href="https://r4ds.had.co.nz/data-visualisation.html">Chapter 3</a> 2) <strong>RDS</strong> <a href="https://r4ds.had.co.nz/exploratory-data-analysis.html">Chapter 7.1-7.2</a> 3) <strong>Modern Statistics for Modern Biology</strong> <a href="http://web.stanford.edu/class/bios221/book/Chap-Graphics.html">Chapter 3</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>01/18/2021</strong> or <strong>01/19/2021</strong></td>
+<td><strong>Week 2 (Lab 2)</strong></td>
+<td>Week 1 computing in R</td>
+<td>1) Homework assignment template and submission, 2) R tips - <strong>RDS</strong> <a href="https://r4ds.had.co.nz/workflow-basics.html">Chapter 4</a>, 3) RStudio diagnostics - <strong>RDS</strong> <a href="https://r4ds.had.co.nz/workflow-scripts.html">Chapter 6</a>, 4) data visualization - <strong>RDS</strong> <a href="https://r4ds.had.co.nz/exploratory-data-analysis.html#exploratory-data-analysis">Chapter 7.1-7.2</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>01/20/2021</strong></td>
+<td>Week 2 (Lecture 3)</td>
+<td>Data visualization II</td>
+<td>1) <strong>RDS</strong> <a href="https://r4ds.had.co.nz/transform.html">Chapter 5</a>, 2) <strong>RDS</strong> <a href="https://r4ds.had.co.nz/exploratory-data-analysis.html#variation">Chapter 7.3-7.8</a></td>
+<td><strong>Homework 1 posted</strong></td>
+</tr>
+<tr class="even">
+<td><strong>01/22/2021</strong></td>
+<td>Week 2 (Lecture 4)</td>
+<td>Data visualization III</td>
+<td>1) <strong>RDS</strong> <a href="https://r4ds.had.co.nz/exploratory-data-analysis.html#variation">Chapter 7.3-7.8</a>, 2) Word clouds - <strong>Text Mining With R</strong> <a href="https://www.tidytextmining.com/twitter.html"> Case study: comparing Twitter archives</a>, 3) Network - <strong>Modern Statistics for Modern Biology</strong> <a href="http://web.stanford.edu/class/bios221/book/Chap-Graphs.html">Chapter 10</a>, 4) Time series plots - <a href="https://www.r-graph-gallery.com/279-plotting-time-series-with-ggplot2.html">https://www.r-graph-gallery.com/279-plotting-time-series-with-ggplot2.html</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>01/25/2021</strong> or <strong>01/26/2021</strong></td>
+<td><strong>Week 3 (Lab 3)</strong></td>
+<td>Week 2 computing in R</td>
+<td>1) <strong>RDS</strong> <a href="https://r4ds.had.co.nz/workflow-projects.html">Chapter 8</a> (create an RProject for STATS3DS3), 2) R commands for Lecture 3, 3) R commands for Lecture 4, 4) Word clouds - <strong>Text Mining With R</strong> <a href="https://www.tidytextmining.com/twitter.html"> Case study: comparing Twitter archives</a>, 5) Network - <strong>Modern Statistics for Modern Biology</strong> <a href="http://web.stanford.edu/class/bios221/book/Chap-Graphs.html">Chapter 10</a>, 6) Time series plots - <a href="https://www.r-graph-gallery.com/279-plotting-time-series-with-ggplot2.html">https://www.r-graph-gallery.com/279-plotting-time-series-with-ggplot2.html</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>01/27/2021</strong></td>
+<td>Week 3 (Lecture 5)</td>
+<td>Interactive visualization</td>
+<td><a href="https://shiny.rstudio.com/tutorial/">Watch the video</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>01/29/2021</strong></td>
+<td>Week 3 (Lecture 6)</td>
+<td>Classification</td>
+<td><strong>ISLR</strong> Pages 39 - 42 (K-Nearest Neighbors)</td>
+<td><strong>Homework 1 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>02/01/2021</strong> or <strong>02/02/2021</strong></td>
+<td><strong>Week 4 (Lab 4)</strong></td>
+<td>Week 3 computing in R</td>
+<td>1) RMarkdown - <strong>RDS</strong> <a href="https://r4ds.had.co.nz/communicate-intro.html">Chapter 26-27.4.2</a>, 2) Shiny (Lecture 5), 3) KNN Classifier (Lecture 6)</td>
+<td><strong>Homework 2 posted</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>02/03/2021</strong></td>
+<td>Week 4 (Lecture 7)</td>
+<td>Classification tree</td>
+<td><strong>ISLR</strong> Chapter 8.1, 8.1.2, 8.1.4</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>02/05/2021</strong></td>
+<td>Week 4 (Lecture 8)</td>
+<td>Regression tree</td>
+<td><strong>ISLR</strong> Chapter 8.1.1, 8.1.4</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>02/08/2021</strong> or <strong>02/09/2021</strong></td>
+<td><strong>Week 5 (Lab 5)</strong></td>
+<td>Week 4 computing in R</td>
+<td>1) Text mining (word cloud) - <a href="https://pratheepaj.shinyapps.io/Lab3_interactive/">Lab 3</a>, 2) Classification trees - <a href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29">Breast Cancer Wisconsin (Diagnostic) Data Set from UCI Machine Learning Repository</a>, 3) Strings in R <a href="https://r4ds.had.co.nz/strings.html">*RDS** Chapter 14: Strings</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>02/10/2021</strong></td>
+<td>Week 5 (Lecture 9)</td>
+<td>Cross-validation</td>
+<td><strong>ISLR</strong> Chapter 5.1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>02/12/2021</strong></td>
+<td>Week 5 (Lecture 10)</td>
+<td>Bagging</td>
+<td><strong>ISLR</strong> Chapter 8.2.1</td>
+<td><strong>Homework 3 posted</strong>, <strong>Homework 2 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>02/15/2021</strong> or <strong>02/16/2021</strong></td>
+<td><strong>Week 6 (No lab)</strong></td>
+<td>Midterm recess</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>02/17/2021</strong></td>
+<td>Week 6 (Lecture 11)</td>
+<td>Midterm recess</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>02/19/2021</strong></td>
+<td>Week 6 (Lecture 12)</td>
+<td>Midterm recess</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>02/22/2021</strong> or <strong>02/23/2021</strong></td>
+<td><strong>Week 7 (Lab 6)</strong></td>
+<td>Week 5 computing in R</td>
+<td>1) <strong>ISLR</strong> Lab 8.3.2 (regression tree), 2) <strong>ISLR</strong> Lab 8.3.3 (bagging)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>02/24/2021</strong></td>
+<td>Week 7 (Lecture 13)</td>
+<td>Random forest and boosting</td>
+<td>1) <strong>ISLR</strong> Chapter 8.2.2 and 8.2.3</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>02/26/2021</strong></td>
+<td>Week 7 (Lecture 14)</td>
+<td>Neural network</td>
+<td><em>The Elements of Statistical Learning</em> Chapter 11.1-11.4</td>
+<td><strong>Homework 4 posted</strong>, <strong>Homework 3 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>03/01/2021</strong> or <strong>03/02/2021</strong></td>
+<td><strong>Week 8 (Lab 7)</strong></td>
+<td>Week 7 computing in R</td>
+<td>1) <strong>ISLR</strong> Lab 8.3.3 and 8.3.4 (RF and boosting) 2) classification using NN</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>03/03/2021</strong></td>
+<td>Week 8 (Lecture 15)</td>
+<td>Clustering I</td>
+<td>1) <strong>ISLR</strong> Chapter 10.3.1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>03/05/2021</strong></td>
+<td>Week 8 (Lecture 16)</td>
+<td>Clustering II</td>
+<td>2) <strong>ISLR</strong> Chapter 10.3.1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>03/08/2021</strong> or <strong>03/09/2021</strong></td>
+<td><strong>Week 9 (Lab 8)</strong></td>
+<td>Week 8 computing in R</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>03/10/2021</strong></td>
+<td>Week 9 (Lecture 17)</td>
+<td>PCA</td>
+<td><strong>ISLR</strong> Chapter 10.2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>03/12/2021</strong></td>
+<td>Week 9 (Lecture 18)</td>
+<td>Discriminant analysis I</td>
+<td><strong>ISLR</strong> Chapter 4.4.1 and 4.4.2</td>
+<td><strong>Homework 5 posted</strong>, <strong>Homework 4 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>03/15/2021</strong> or <strong>03/16/2021</strong></td>
+<td><strong>Week 10 (Lab 9)</strong></td>
+<td>Week 9 computing in R</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>03/17/2021</strong></td>
+<td>Week 10 (Lecture 19)</td>
+<td>Discriminant analysis II</td>
+<td><strong>ISLR</strong> Chapter 4.4.3 and 4.4.4</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>03/19/2021</strong></td>
+<td>Week 10 (Lecture 20)</td>
+<td>Subset selection</td>
+<td><strong>ISLR</strong> Chapter 6.1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>03/22/2021</strong> or <strong>03/23/2021</strong></td>
+<td><strong>Week 11 (Lab 10)</strong></td>
+<td>Week 10 computing in R</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>03/24/2021</strong></td>
+<td>Week 11 (Lecture 21)</td>
+<td>Penalized regression I</td>
+<td>1) <strong>ISLR</strong> Chapter 2.2, <strong>ISLR</strong> Chapter 6.2.1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>03/26/2021</strong></td>
+<td>Week 11 (Lecture 22)</td>
+<td>Penalized regression II</td>
+<td><strong>ISLR</strong> Chapter 6.2.2 and 6.2.3</td>
+<td><strong>Homework 6 posted</strong>, <strong>Homework 5 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>03/29/2021</strong> or <strong>03/30/2021</strong></td>
+<td><strong>Week 12 (Lab 11)</strong></td>
+<td>Week 11 computing in R</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>03/31/2021</strong></td>
+<td>Week 12 (Lecture 23)</td>
+<td>Logistic regression I</td>
+<td><strong>ISLR</strong> Chapter 4.3.1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>04/02/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Good Friday: No classes or examinations</td>
+</tr>
+<tr class="odd">
+<td><strong>04/05/2021</strong> or <strong>04/06/2021</strong></td>
+<td><strong>Week 13 (Lab 12)</strong></td>
+<td>Week 12 computing in R</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>04/07/2021</strong></td>
+<td>Week 13 (Lecture 24)</td>
+<td>Logistic regression II</td>
+<td><strong>ISLR</strong> Chapter 4.3.2 and 4.3.3</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>04/09/2021</strong></td>
+<td>Week 13 (Lecture 25)</td>
+<td>Sensitivity and specificity</td>
+<td></td>
+<td><strong>Homework 6 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>04/12/2021</strong> or <strong>04/13/2021</strong></td>
+<td><strong>Week 14 (Lab 13)</strong></td>
+<td>Week 13 computing in R</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>04/14/2021</strong></td>
+<td>Week 14 (Lecture 26)</td>
+<td>Wrap-up</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="important-dates" class="section level2">
+<h2>Important dates</h2>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Day</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>January 11, 2021</td>
+<td>Monday</td>
+<td>Classes begin</td>
+</tr>
+<tr class="even">
+<td>January 19, 2021</td>
+<td>Thuesday</td>
+<td>Last day for enrollment and course changes (drop/add)</td>
+</tr>
+<tr class="odd">
+<td>February 15 to February 19, 2021</td>
+<td>Monday- Friday</td>
+<td>Mid-term recess</td>
+</tr>
+<tr class="even">
+<td>March 19, 2021</td>
+<td>Friday</td>
+<td>Last day for withdrawing from courses without failure by default</td>
+</tr>
+<tr class="odd">
+<td>April 2, 2021</td>
+<td>Friday</td>
+<td>Good Friday: No classes or examinations</td>
+</tr>
+<tr class="even">
+<td>April 8 to April 14, 2021</td>
+<td>Thursday - Wednesday</td>
+<td>Test and Examination Restriction</td>
+</tr>
+<tr class="odd">
+<td>April 14, 2021</td>
+<td>Wednesday</td>
+<td>Classes End</td>
+</tr>
+<tr class="even">
+<td>April 15 to April 30, 2021</td>
+<td>Thursday - Friday</td>
+<td>Final Examinations</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="r-markdown-files" class="section level2">
+<h2>R Markdown files</h2>
+<p>Available upon request.</p>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://PratheepaJ.github.io/teaching/stats3ds3/&amp;text=STATS%203DS3%20%28Winter%202021,%20McMaster%29" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://PratheepaJ.github.io/teaching/stats3ds3/&amp;t=STATS%203DS3%20%28Winter%202021,%20McMaster%29" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=STATS%203DS3%20%28Winter%202021,%20McMaster%29&amp;body=https://PratheepaJ.github.io/teaching/stats3ds3/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://PratheepaJ.github.io/teaching/stats3ds3/&amp;title=STATS%203DS3%20%28Winter%202021,%20McMaster%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=STATS%203DS3%20%28Winter%202021,%20McMaster%29%20https://PratheepaJ.github.io/teaching/stats3ds3/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://PratheepaJ.github.io/teaching/stats3ds3/&amp;title=STATS%203DS3%20%28Winter%202021,%20McMaster%29" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.d68ecd57c0ec1f1f61d65fd568f1c3a0.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>
