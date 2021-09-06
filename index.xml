@@ -20,6 +20,20 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/project/spatial-multiomics/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;Methods&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#integrating-spatil-targeted-proteomics-data&#34;&gt;Integrating spatil targeted proteomics data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#derive-features-to-represent-spatial-proximities-of-two-spatil-point-processes&#34;&gt;Derive features to represent spatial proximities of two spatil point processes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#methods-to-learning-from-spatial-transcriptomics-data-from-visual-cortex&#34;&gt;Methods to learning from spatial transcriptomics data from visual cortex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#applciation&#34;&gt;Applciation&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#predict-the-survival-of-breast-cancer-patients-based-on-tumor-immune-environment&#34;&gt;Predict the survival of breast cancer patients based on tumor-immune environment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div id=&#34;methods&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Methods&lt;/h1&gt;
@@ -50,6 +64,21 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/project/micro-multiomics/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;Methods&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#container&#34;&gt;Container&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#transformation&#34;&gt;Transformation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#metatranscriptomics-and-marker-gene-integration&#34;&gt;Metatranscriptomics and marker-gene integration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#applications&#34;&gt;Applications&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#vaginal-microbiome-data&#34;&gt;Vaginal microbiome data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#integrative-human-microbiome-project&#34;&gt;Integrative human microbiome project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div id=&#34;methods&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Methods&lt;/h1&gt;
@@ -85,6 +114,22 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/project/micro/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;Methods&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#differential-topic-analysis&#34;&gt;Differential topic analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dna-contamination-removal-in-molecular-microbial-studies&#34;&gt;DNA contamination removal in molecular microbial studies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#inference-on-longitudinal-microbiome-data&#34;&gt;Inference on longitudinal microbiome data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#applications&#34;&gt;Applications&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#difftop&#34;&gt;diffTop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#barbi&#34;&gt;BARBI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bootlong&#34;&gt;BootLong&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div id=&#34;methods&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Methods&lt;/h1&gt;
@@ -184,6 +229,14 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/project/mspbb/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#application&#34;&gt;Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Wang (1990) devised an analytical approximation for the bivariate CDF for a rectangular set using the Lugannani and Rice (1980) formula and the standard bivariate normal distribution. We considered the theoretical study of the saddlepoint approximation for the bivariate distributions and provided necessary corrections and clarifications for the formula established by Wang (1990).&lt;/p&gt;
 &lt;p&gt;The numerical methods are used to compute the probability when the set is non-rectangular. There are many applications where inferences on a particular parameter &lt;span class=&#34;math inline&#34;&gt;\(\theta_{1}\)&lt;/span&gt; in the presence of other &lt;span class=&#34;math inline&#34;&gt;\(k-1\)&lt;/span&gt; parameters are necessary. Obtaining a marginal probability distribution for &lt;span class=&#34;math inline&#34;&gt;\(\hat{\theta}_{1}\)&lt;/span&gt; is a straightforward matter of letting the arguments corresponding to the remaining parameters approach infinite values in the joint CDF of &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt; estimators. In order to approximate the joint CDF of estimators, we consider a class of problems in which the estimators &lt;span class=&#34;math inline&#34;&gt;\(\left[\hat{\theta}_{1}, \ldots, \hat{\theta}_{k}\right]^{T}\)&lt;/span&gt; may be determined as the roots of &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt; distinct estimating equations.&lt;/p&gt;
@@ -218,6 +271,14 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/project/sap-bcdf/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#application&#34;&gt;Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;p&gt;We identify the expression for the variable that was not defined in &lt;a href=&#34;https://www.cambridge.org/core/journals/journal-of-applied-probability/article/saddlepoint-approximations-for-bivariate-distributions/BA1D4A854B7DEEB68A5C1CF054ADDF9C&#34;&gt;Wang (1990)&lt;/a&gt; to approximate the bivariate distributions.&lt;/p&gt;
 &lt;div id=&#34;application&#34; class=&#34;section level2&#34;&gt;
@@ -251,6 +312,14 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/project/espa/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#application&#34;&gt;Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The KM estimator is a commonly used nonparametric estimator of a survival function, but the KM estimator only defines the approximate probability of observed failure times and may not define a proper density function if the largest observation is right-censored.&lt;/p&gt;
 &lt;div id=&#34;application&#34; class=&#34;section level2&#34;&gt;
@@ -286,6 +355,27 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/teaching/stats3ds3/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Syllabus&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#course-overview&#34;&gt;Course overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#expected-outcomes&#34;&gt;Expected outcomes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#course-information&#34;&gt;Course Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#textbook&#34;&gt;Textbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evaluation&#34;&gt;Evaluation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lecture-notes&#34;&gt;Lecture notes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#course-schedule&#34;&gt;Course Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#important-dates&#34;&gt;Important dates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#r-markdown-files&#34;&gt;R Markdown files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div id=&#34;description&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Description&lt;/h1&gt;
@@ -753,6 +843,14 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/project/msap/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#application&#34;&gt;Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The AR models are typically used to model the time series data. Several possible procedures exist for estimating model parameters. We refer to some of them as Yule-Walker (YW) estimators (Yule, 1927), least squares estimators, Burg estimators (Burg, 1968), and maximum likelihood estimators. Although the YW estimators produce bias in the estimation, this is a commonly used estimation method in practice.&lt;/p&gt;
 &lt;div id=&#34;application&#34; class=&#34;section level2&#34;&gt;
@@ -786,6 +884,28 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/teaching/stats191/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Syllabus&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#course-overview&#34;&gt;Course Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#expected-outcomes&#34;&gt;Expected outcomes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#course-information&#34;&gt;Course Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#textbook&#34;&gt;Textbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evaluation&#34;&gt;Evaluation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#policies&#34;&gt;Policies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lecture-notes&#34;&gt;Lecture Notes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#course-schedule&#34;&gt;Course Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#important-dates&#34;&gt;Important Dates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#r-markdown-files&#34;&gt;R Markdown files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div id=&#34;description&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Description&lt;/h1&gt;
@@ -1276,6 +1396,14 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/project/spbb/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#application&#34;&gt;Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;p&gt;We consider a class of statistical methods called the saddlepoint-based bootstrap (SPBB) method to make inferences about the spatial dependence parameter in the spatial regression model.&lt;/p&gt;
 &lt;div id=&#34;application&#34; class=&#34;section level2&#34;&gt;
@@ -1311,6 +1439,27 @@
       <description>
 &lt;script src=&#34;https://PratheepaJ.github.io/teaching/stats205/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Syllabus&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#course-overview&#34;&gt;Course Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#expected-outcomes&#34;&gt;Expected outcomes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#course-information&#34;&gt;Course Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#texts&#34;&gt;Texts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#other-sources&#34;&gt;Other sources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#grading&#34;&gt;Grading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lecture-notes&#34;&gt;Lecture Notes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#course-schedule&#34;&gt;Course Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#r-markdown-files&#34;&gt;R Markdown files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div id=&#34;description&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Description&lt;/h1&gt;
