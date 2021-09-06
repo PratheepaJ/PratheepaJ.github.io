@@ -24,9 +24,9 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;Methods&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#integrating-spatil-targeted-proteomics-data&#34;&gt;Integrating spatil targeted proteomics data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#derive-features-to-represent-spatial-proximities-of-two-spatil-point-processes&#34;&gt;Derive features to represent spatial proximities of two spatil point processes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#methods-to-learning-from-spatial-transcriptomics-data-from-visual-cortex&#34;&gt;Methods to learning from spatial transcriptomics data from visual cortex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#integrating-spatial-targeted-proteomics-data&#34;&gt;Integrating spatial targeted-proteomics data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#deriving-features-to-represent-spatial-proximities-of-two-spatial-point-processes&#34;&gt;Deriving features to represent spatial proximities of two spatial point processes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#integrative-approaches-for-spatial-transcriptomics-data-visual-cortex&#34;&gt;Integrative approaches for spatial transcriptomics data (visual cortex)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#applciation&#34;&gt;Applciation&lt;/a&gt;
 &lt;ul&gt;
@@ -37,14 +37,14 @@
 
 &lt;div id=&#34;methods&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Methods&lt;/h1&gt;
-&lt;div id=&#34;integrating-spatil-targeted-proteomics-data&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Integrating spatil targeted proteomics data&lt;/h2&gt;
+&lt;div id=&#34;integrating-spatial-targeted-proteomics-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Integrating spatial targeted-proteomics data&lt;/h2&gt;
 &lt;/div&gt;
-&lt;div id=&#34;derive-features-to-represent-spatial-proximities-of-two-spatil-point-processes&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Derive features to represent spatial proximities of two spatil point processes&lt;/h2&gt;
+&lt;div id=&#34;deriving-features-to-represent-spatial-proximities-of-two-spatial-point-processes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Deriving features to represent spatial proximities of two spatial point processes&lt;/h2&gt;
 &lt;/div&gt;
-&lt;div id=&#34;methods-to-learning-from-spatial-transcriptomics-data-from-visual-cortex&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Methods to learning from spatial transcriptomics data from visual cortex&lt;/h2&gt;
+&lt;div id=&#34;integrative-approaches-for-spatial-transcriptomics-data-visual-cortex&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Integrative approaches for spatial transcriptomics data (visual cortex)&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;applciation&#34; class=&#34;section level1&#34;&gt;
