@@ -5,12 +5,47 @@
     <link>https://PratheepaJ.github.io/</link>
       <atom:link href="https://PratheepaJ.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title></title>
       <link>https://PratheepaJ.github.io/</link>
     </image>
+    
+    <item>
+      <title>Saddlepoint-Based Bootstrap Method (SPBB)</title>
+      <link>https://PratheepaJ.github.io/project/spbb/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://PratheepaJ.github.io/project/spbb/</guid>
+      <description>
+&lt;script src=&#34;https://PratheepaJ.github.io/project/spbb/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;We considered a class of statistical methods called the saddlepoint-based bootstrap (SPBB) method to make inferences about the spatial dependence parameter in the spatial regression model.&lt;/p&gt;
+&lt;div id=&#34;application&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Application&lt;/h2&gt;
+&lt;p&gt;For example, in spatial econometrics, we can use the SPBB method to infer the significance of the spatial dependence parameter. We can use either the spatial autoregressive model, conditional autoregressive model, or spatial moving average models to fit the spatial lattice data.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;method&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Method&lt;/h2&gt;
+&lt;p&gt;We can use the SPBB method to construct confidence intervals for a parameter whose estimator is a unique root of a quadratic estimating equation. In the SPBB method, we use the monotonicity of the quadratic estimating equation in parameter to relate the distribution of an estimator to the distribution of the respective quadratic estimating equation. Using the saddlepoint methods, it is then possible to accurately approximate the distribution of the estimator. Then confidence interval can be produced by pivoting the distribution of the estimator.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;R package &lt;a href=&#34;https://github.com/PratheepaJ/SPBBspatial&#34;&gt;SPBBspatial&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pratheepaj.github.io/tutorial/spbbspatial/&#34;&gt;Tutorial&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Available in &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2211675315000020&#34;&gt;&lt;em&gt;Spatial statistics&lt;/em&gt;&lt;/a&gt; journal.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Master thesis.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title></title>
