@@ -1,5 +1,5 @@
 ---
-title: Past HQP
+title: Past students
 author: ''
 date: '2021-09-05'
 slug: past-hqp

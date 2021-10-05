@@ -1,5 +1,5 @@
 ---
-title: Current HQP
+title: Current students
 author: ''
 date: '2021-09-05'
 slug: current-hqp

@@ -1,5 +1,5 @@
 ---
-title: Prospective HQP
+title: Prospective students
 author: ''
 date: '2021-09-05'
 slug: prospective-hqp
