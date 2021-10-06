@@ -21,7 +21,7 @@ projects: []
 
 |Name|Role|Research|Note|
 |--|--|--|--|
-|Pengfei Cai |Ph.D. student in statistics||Co-supervision with Dr. Anas Abdallah, starting Fall 2021|
+|Pengfei Cai |Ph.D. student in statistics||Co-supervision with Dr. Anas Abdallah, 2021-2024|
 
 # Undergraduate students
 
