@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://PratheepaJ.github.io/project/generative-models/</loc>
+    <lastmod>2022-01-03T12:32:51-05:00</lastmod>
+  </url><url>
     <loc>https://PratheepaJ.github.io/project/spatial-multiomics/</loc>
     <lastmod>2021-09-05T23:34:59-04:00</lastmod>
   </url><url>
@@ -45,13 +48,13 @@
     <lastmod>2021-09-05T23:44:15-04:00</lastmod>
   </url><url>
     <loc>https://PratheepaJ.github.io/</loc>
-    <lastmod>2022-01-03T12:24:36-05:00</lastmod>
+    <lastmod>2022-01-03T12:32:51-05:00</lastmod>
+  </url><url>
+    <loc>https://PratheepaJ.github.io/project/</loc>
+    <lastmod>2022-01-03T12:32:51-05:00</lastmod>
   </url><url>
     <loc>https://PratheepaJ.github.io/teaching/</loc>
     <lastmod>2022-01-03T12:24:36-05:00</lastmod>
-  </url><url>
-    <loc>https://PratheepaJ.github.io/project/</loc>
-    <lastmod>2021-09-05T23:34:59-04:00</lastmod>
   </url><url>
     <loc>https://PratheepaJ.github.io/admin/</loc>
   </url><url>
