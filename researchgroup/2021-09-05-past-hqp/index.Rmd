@@ -1,5 +1,5 @@
 ---
-title: Past students
+title: Alumni 
 author: ''
 date: '2021-09-05'
 slug: past-hqp
@@ -21,7 +21,7 @@ projects: []
 
 |Name|Role|Research|Note|
 |--|--|--|--|
-|Ka Yat Liu |Undergraduate research student|[Statistical methods for microbiome data analysis](https://macdrive.mcmaster.ca/f/2db3438eefa0465a8730/)|James Stewart Student Research Award, May - August 2021|
+|Ka Yat Liu |Undergraduate research student|[Statistical methods for microbiome data analysis](https://macdrive.mcmaster.ca/f/2db3438eefa0465a8730/), [https://github.com/kaidenliu0806/summer_research](https://github.com/kaidenliu0806/summer_research)  |James Stewart Student Research Award, May - August 2021|
 |Gheeda Mourtada| Undergraduate research student|[Statistical methods for spatial proteomics data](https://macdrive.mcmaster.ca/f/0e4d78d1659d4f45a077/) |NSERC USRA, May - August 2021|
 
 
