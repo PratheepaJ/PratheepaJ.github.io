@@ -25,25 +25,24 @@
     </item>
     
     <item>
-      <title>Spatial multi-omics</title>
+      <title>Replicated (multiple view) spatial point pattern - application to spatial multi-omics</title>
       <link>https://PratheepaJ.github.io/project/spatial-multiomics/</link>
       <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://PratheepaJ.github.io/project/spatial-multiomics/</guid>
       <description>
-&lt;script src=&#34;https://PratheepaJ.github.io/project/spatial-multiomics/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;Methods&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34; id=&#34;toc-methods&#34;&gt;Methods&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#integrating-spatial-targeted-proteomics-data&#34;&gt;Integrating spatial targeted-proteomics data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#deriving-features-to-represent-spatial-proximities-of-two-spatial-point-processes&#34;&gt;Deriving features to represent spatial proximities of two spatial point processes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#integrative-approaches-for-spatial-transcriptomics-data-visual-cortex&#34;&gt;Integrative approaches for spatial transcriptomics data (visual cortex)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#integrating-spatial-targeted-proteomics-data&#34; id=&#34;toc-integrating-spatial-targeted-proteomics-data&#34;&gt;Integrating spatial targeted-proteomics data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#deriving-features-to-represent-spatial-proximities-of-two-spatial-point-processes&#34; id=&#34;toc-deriving-features-to-represent-spatial-proximities-of-two-spatial-point-processes&#34;&gt;Deriving features to represent spatial proximities of two spatial point processes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#integrative-approaches-for-spatial-transcriptomics-data-visual-cortex&#34; id=&#34;toc-integrative-approaches-for-spatial-transcriptomics-data-visual-cortex&#34;&gt;Integrative approaches for spatial transcriptomics data (visual cortex)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#appications&#34;&gt;Appications&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#appications&#34; id=&#34;toc-appications&#34;&gt;Appications&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#visual-cortex&#34;&gt;Visual cortex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#predict-the-survival-of-breast-cancer-patients-based-on-tumor-immune-environment&#34;&gt;Predict the survival of breast cancer patients based on tumor-immune environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#visual-cortex&#34; id=&#34;toc-visual-cortex&#34;&gt;Visual cortex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#predict-the-survival-of-breast-cancer-patients-based-on-tumor-immune-environment&#34; id=&#34;toc-predict-the-survival-of-breast-cancer-patients-based-on-tumor-immune-environment&#34;&gt;Predict the survival of breast cancer patients based on tumor-immune environment&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -73,25 +72,24 @@
     </item>
     
     <item>
-      <title>Microbiome multi-omics</title>
+      <title>Multiple (structured) count matrices - application to microbiome multi-omics data</title>
       <link>https://PratheepaJ.github.io/project/micro-multiomics/</link>
       <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://PratheepaJ.github.io/project/micro-multiomics/</guid>
       <description>
-&lt;script src=&#34;https://PratheepaJ.github.io/project/micro-multiomics/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;Methods&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34; id=&#34;toc-methods&#34;&gt;Methods&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#container&#34;&gt;Container&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#transformation&#34;&gt;Transformation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#metatranscriptomics-and-marker-gene-integration&#34;&gt;Metatranscriptomics and marker-gene integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#container&#34; id=&#34;toc-container&#34;&gt;Container&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#transformation&#34; id=&#34;toc-transformation&#34;&gt;Transformation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#metatranscriptomics-and-marker-gene-integration&#34; id=&#34;toc-metatranscriptomics-and-marker-gene-integration&#34;&gt;Metatranscriptomics and marker-gene integration&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#applications&#34;&gt;Applications&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#applications&#34; id=&#34;toc-applications&#34;&gt;Applications&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#vaginal-microbiome-data&#34;&gt;Vaginal microbiome data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#integrative-human-microbiome-project&#34;&gt;Integrative human microbiome project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vaginal-microbiome-data&#34; id=&#34;toc-vaginal-microbiome-data&#34;&gt;Vaginal microbiome data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#integrative-human-microbiome-project&#34; id=&#34;toc-integrative-human-microbiome-project&#34;&gt;Integrative human microbiome project&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -123,26 +121,29 @@
     </item>
     
     <item>
-      <title>Molecular microbial data analysis</title>
+      <title>Count matrix analysis - application to molecular microbial data</title>
       <link>https://PratheepaJ.github.io/project/micro/</link>
       <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://PratheepaJ.github.io/project/micro/</guid>
       <description>
-&lt;script src=&#34;https://PratheepaJ.github.io/project/micro/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+
+
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;Methods&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34; id=&#34;toc-methods&#34;&gt;Methods&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#differential-topic-analysis&#34;&gt;Differential topic analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#dna-contamination-removal-in-molecular-microbial-studies&#34;&gt;DNA contamination removal in molecular microbial studies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#inference-on-longitudinal-microbiome-data&#34;&gt;Inference on longitudinal microbiome data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#differential-topic-analysis&#34; id=&#34;toc-differential-topic-analysis&#34;&gt;Differential topic analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dna-contamination-removal-in-molecular-microbial-studies&#34; id=&#34;toc-dna-contamination-removal-in-molecular-microbial-studies&#34;&gt;DNA contamination removal in molecular microbial studies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#inference-on-longitudinal-microbiome-data&#34; id=&#34;toc-inference-on-longitudinal-microbiome-data&#34;&gt;Inference on longitudinal microbiome data&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#applications&#34;&gt;Applications&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#applications&#34; id=&#34;toc-applications&#34;&gt;Applications&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#difftop&#34;&gt;diffTop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#barbi&#34;&gt;BARBI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#bootlong&#34;&gt;BootLong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#difftop&#34; id=&#34;toc-difftop&#34;&gt;diffTop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#barbi&#34; id=&#34;toc-barbi&#34;&gt;BARBI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bootlong&#34; id=&#34;toc-bootlong&#34;&gt;BootLong&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;

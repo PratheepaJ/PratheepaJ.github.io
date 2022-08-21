@@ -1,0 +1,31 @@
+---
+title: Alumni 
+author: ''
+date: '2021-09-05'
+slug: past-hqp
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-09-05T11:47:56-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+weight: 100
+---
+
+# Undergraduate students
+
+|Name|Role|Research|Note|
+|--|--|--|-------|
+|Hainan Xu|Undergraduate research student |Spatial point pattern summaries of multiple views: application to the analysis of the primary visual cortex|James Stewart Student Research Award, May - July 2022|
+|Mariana Mariles Torres|Undergraduate Research Assistant |[Monte Carlo experiments for generative models with goodness-of-fit measures: application to microbiome data](https://github.com/PratheepaJ/Differential-Topic-Analysis)|Fall 2021 - Winter 2022|
+|Ka Yat Liu |Undergraduate research student|[Prior sensitivity analysis and multiplicative noise effects in Bayesian sampling methods: application to microbiome data](https://macdrive.mcmaster.ca/f/2db3438eefa0465a8730/), [https://github.com/kaidenliu0806/summer_research](https://github.com/kaidenliu0806/summer_research)  |James Stewart Student Research Award, May - August 2021|
+|Gheeda Mourtada| Undergraduate research student|[Spatial point pattern summaries for spatial count matrix: application to spatial proteomics data](https://macdrive.mcmaster.ca/f/0e4d78d1659d4f45a077/) |NSERC USRA, May - August 2021|
+
+
+

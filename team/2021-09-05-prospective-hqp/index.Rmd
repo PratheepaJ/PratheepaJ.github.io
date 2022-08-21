@@ -1,0 +1,34 @@
+---
+title: Prospective students
+author: ''
+date: '2021-09-05'
+slug: prospective-hqp
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-09-05T12:08:07-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+weight: 101
+---
+
+We welcome 
+
+* undergraduate research students in  
+  * Spring/Summer with NSERC USRA/Stewart Award,  
+  * Fall for undergraduate research assistants,  
+  * Fall - Winter for undergraduate thesis.
+
+
+* graduate (masters and PhD) students (Statistics, Computational Science and Engineering) in   
+  * Fall
+
+* postdocs throughout the year. 
+
+Please look at [Join Us](https://pratheepaj.github.io/joinus) for more details.

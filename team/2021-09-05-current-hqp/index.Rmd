@@ -1,0 +1,38 @@
+---
+title: Current Team Members
+author: ''
+date: '2021-09-05'
+slug: current-hqp
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-09-05T11:53:06-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+weight: 99
+---
+
+# Graduate Students
+
+|Name|Role|Research|Note|
+|--|--|--|--|
+|Pengfei Cai |Ph.D. student in statistics|Prediction on multiple loss triangles: application to loss reserve in multiple business lines|Co-supervision with Dr. Anas Abdallah, 2021-2024|
+|Inwook Black|Ph.D. student in statistics|Replicated (multiple view) spatial point pattern: application to spatial omics|expect to start in Fall 2022|
+|Ishanka Fernando| M.Sc. student in statistics|Multiple (structured) count matrices: application to microbiome data|expect to start in Fall 2022|
+
+# Undergraduate students
+
+|Name|Role|Research |Note|
+|--|--|---|---|
+|Shiheng Huang|Undergraduate thesis student |Replicated (multivariate marked) spatial point pattern: application to the analysis of the brain tumor samples|expect to start in Fall 2022|
+
+
+
+
+
