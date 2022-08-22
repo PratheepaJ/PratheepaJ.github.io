@@ -19,33 +19,46 @@
       <guid>https://PratheepaJ.github.io/resource/readings-research-interests/</guid>
       <description>
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#multi-view-learning&#34; id=&#34;toc-multi-view-learning&#34;&gt;Multi-view learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#statistical-theory-for-dependence-modeling&#34; id=&#34;toc-statistical-theory-for-dependence-modeling&#34;&gt;Statistical theory for dependence modeling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#generative-models&#34; id=&#34;toc-generative-models&#34;&gt;Generative models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#approximation-theory-in-statistics&#34; id=&#34;toc-approximation-theory-in-statistics&#34;&gt;Approximation theory in statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#neural-networks&#34; id=&#34;toc-neural-networks&#34;&gt;Neural networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#spatial-point-pattern&#34; id=&#34;toc-spatial-point-pattern&#34;&gt;Spatial point pattern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
-&lt;div id=&#34;multi-view-learning&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Multi-view learning&lt;/h2&gt;
+&lt;div id=&#34;multi-view-learning&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Multi-view learning&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Multimodal_learning&#34;&gt;Multimodal learning - Wikipedia.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;statistical-theory-for-dependence-modeling&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Statistical theory for dependence modeling&lt;/h2&gt;
+&lt;div id=&#34;statistical-theory-for-dependence-modeling&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Statistical theory for dependence modeling&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Scale-invariant dependence theory.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;generative-models&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Generative models&lt;/h2&gt;
+&lt;div id=&#34;generative-models&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Generative models&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.annualreviews.org/doi/10.1146/annurev-statistics-022513-115657&#34;&gt;Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models by David M. Blei.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;approximation-theory-in-statistics&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Approximation theory in statistics&lt;/h2&gt;
+&lt;div id=&#34;approximation-theory-in-statistics&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Approximation theory in statistics&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www-jstor-org.libaccess.lib.mcmaster.ca/stable/pdf/2985061.pdf?refreqid=excelsior%3A1ec1fc365d7eeeaeae9aa9a2a4ed3606&amp;amp;ab_segments=&amp;amp;origin=&#34;&gt;Edgeworth and Saddle-Point Approximations with Statistical Applications by O. Barndorff-Nielsen and D. R. Cox&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;neural-networks&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Neural networks&lt;/h2&gt;
+&lt;div id=&#34;neural-networks&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Neural networks&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;spatial-point-pattern&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Spatial point pattern&lt;/h1&gt;
 &lt;/div&gt;
 </description>
     </item>
