@@ -5,7 +5,7 @@
     <link>https://PratheepaJ.github.io/</link>
       <atom:link href="https://PratheepaJ.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://PratheepaJ.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title></title>
@@ -1306,6 +1306,554 @@
 &lt;p&gt;R Markdown files to create the lecture slides and PDFs are available in &lt;a href=&#34;https://github.com/PratheepaJ/STATS191&#34;&gt;https://github.com/PratheepaJ/STATS191&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How I created this website?</title>
+      <link>https://PratheepaJ.github.io/resource/how-to-create-this-site/</link>
+      <pubDate>Sun, 21 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://PratheepaJ.github.io/resource/how-to-create-this-site/</guid>
+      <description>
+
+
+&lt;p&gt;I describe how I created this Hugo-blogdown website and deployed it on Github.&lt;/p&gt;
+&lt;p&gt;I had a website with a &lt;code&gt;Hugo-academic&lt;/code&gt; theme, but after it was changed to &lt;code&gt;wowchemy&lt;/code&gt;, I went through the following steps to move everything from my old website to a new one.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;I saved the contents in the &lt;code&gt;webiste_old&lt;/code&gt; folder (local) in a separate folder.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I remove the Username.github.io repository from Github.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I followed &lt;strong&gt;Matteo Courthoud&lt;/strong&gt;’s blog on &lt;a href=&#34;https://matteocourthoud.github.io/post/website/&#34;&gt;``how to make a personal website with Hugo.”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The steps I followed from the blog are as follows.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Create a Github repository - Username.github.io.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Install &lt;code&gt;blogdown&lt;/code&gt; from Github - &lt;code&gt;remotes::install_github(&#39;rstudio/blogdown&#39;)&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If Hugo was not installed, install it by calling &lt;code&gt;blogdown::install_hugo()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now, I want to keep everything for the website in the &lt;code&gt;website&lt;/code&gt; folder on my computer.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open RStudio.&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;New Project&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;New Directory&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;Website using blogdown&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Directory name - &lt;code&gt;website&lt;/code&gt;, Hugo theme - &lt;code&gt;wowchemy/starter-academic&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;Create Project&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Check your &lt;code&gt;website&lt;/code&gt; folder.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Build the website&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open the RProject file &lt;code&gt;website.Rproj&lt;/code&gt; in the &lt;code&gt;website&lt;/code&gt; folder.&lt;/li&gt;
+&lt;li&gt;Type in console, &lt;code&gt;blogdown::hugo_build()&lt;/code&gt; - this will create a &lt;code&gt;public&lt;/code&gt; folder which includes all needed for the website.&lt;/li&gt;
+&lt;li&gt;Type in colsole, &lt;code&gt;blogdown::serve_site()&lt;/code&gt; - to preview the website in your browser.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Publish the website&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open the file &lt;code&gt;config.yaml&lt;/code&gt; in the &lt;code&gt;webisite&lt;/code&gt; folderand change the baseurl to your future website url. ‘&lt;a href=&#34;https://Username.github.io/&#34; class=&#34;uri&#34;&gt;https://Username.github.io/&lt;/a&gt;’&lt;/li&gt;
+&lt;li&gt;Open terminal and direct to the &lt;code&gt;public&lt;/code&gt; folder in the &lt;code&gt;webiste&lt;/code&gt; folder - &lt;code&gt;$cd /path-to-directory/website/public&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Now, add the remote repository to the &lt;code&gt;public/&lt;/code&gt; folder, containing the actual code of the website. Follow the steps below.
+&lt;ul&gt;
+&lt;li&gt;Initialize git in the &lt;code&gt;path-to-directory/website/public&lt;/code&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git init&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Set origin
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git remote add origin https://github.com/Username/Username.github.io.git&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Add and commit the changes
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m &#34;update website&#34;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;And push your updates to remote
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git push --set-upstream origin master&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;DONE - the website ready!&lt;/p&gt;
+&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Customize&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt;: general website information.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;theme: &amp;quot;starter-hugo-academic&amp;quot;
+# Configuration of Hugo
+# Guide: https://wowchemy.com/docs/getting-started/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+title: # Website name
+baseurl: &amp;#39;https://Username.github.io/&amp;#39; # Website URL
+copyright: &amp;#39;&amp;#39; # Footer text, e.g. &amp;#39;© {year} Me&amp;#39;
+
+############################
+## LANGUAGE
+############################
+
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## MODULES
+############################
+
+module:
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+
+############################
+## ADVANCED
+############################
+
+enableGitInfo: false
+summaryLength: 30
+paginate: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: &amp;lt;sup&amp;gt;^&amp;lt;/sup&amp;gt;
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+permalinks:
+  event: &amp;#39;/talk/:slug/&amp;#39;
+  authors: &amp;#39;/author/:slug/&amp;#39;
+  tags: &amp;#39;/tag/:slug/&amp;#39;
+  categories: &amp;#39;/category/:slug/&amp;#39;
+  publication_types: &amp;#39;/publication-type/:slug/&amp;#39;
+disableAliases: true
+outputs:
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  section: [HTML, RSS]
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart
+timeout: 600000
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_types
+  author: authors
+markup:
+  _merge: deep
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;config/_default/params.yaml&lt;/code&gt;: website customization.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+
+theme: minimal
+day_night: true
+font: &amp;#39;classic&amp;#39;
+font_size: L
+
+# SEO
+
+site_type: Person
+local_business_type: &amp;#39;&amp;#39;
+org_name: &amp;#39;&amp;#39;
+description: &amp;#39;&amp;#39;
+twitter: &amp;#39;Username_Twitter&amp;#39;
+
+# Contact (edit or remove options as required)
+
+# email: test@example.org
+# phone: 888 888 88 88
+# address:
+#   street: 450 Serra Mall
+#   city: Stanford
+#   region: CA
+#   postcode: &amp;#39;94305&amp;#39;
+#   country: United States
+#   country_code: US
+# coordinates:
+#   latitude: &amp;#39;37.4275&amp;#39;
+#   longitude: &amp;#39;-122.1697&amp;#39;
+# directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+# office_hours:
+#   - &amp;#39;Monday 10:00 to 13:00&amp;#39;
+#   - &amp;#39;Wednesday 09:00 to 10:00&amp;#39;
+# appointment_url: &amp;#39;https://calendly.com&amp;#39;
+
+contact_links:
+  - icon: twitter
+    icon_pack: fab
+    link: &amp;#39;https://twitter.com/Username_twitter&amp;#39;
+    
+  - icon: linkedin
+    icon_pack: fab
+    link: &amp;quot;https://www.linkedin.com/in/Username_linkedin/&amp;quot;
+    
+  - icon: google-scholar
+    icon_pack: ai
+    link: &amp;#39;https://scholar.google.com/your-profile&amp;#39;
+    
+  - icon: github
+    icon_pack: fab
+    link: &amp;quot;https://github.com/Username&amp;quot;
+
+# Site header
+
+main_menu:
+  enable: true
+  align: r
+  show_logo: true
+  show_language: false
+  show_day_night: true
+  show_search: true
+  highlight_active_link: true
+
+# Localization
+
+date_format: &amp;#39;Jan 2, 2006&amp;#39;
+time_format: &amp;#39;3:04 PM&amp;#39;
+address_format: en-us
+
+# Site features
+
+highlight: true
+highlight_languages:
+  - r
+  - python
+  - latex
+math: true
+diagram: false
+privacy_pack: false
+edit_page:
+  repo_url: &amp;#39;&amp;#39;
+  content_dir: &amp;#39;&amp;#39;
+  repo_branch: main
+  editable:
+    page: false
+    post: false
+    book: false
+show_related:
+  book: true
+  page: false
+  post: true
+  project: true
+  publication: true
+  event: true
+reading_time: true
+section_pager: false
+docs_section_pager: true
+sharing: true
+copyright_license:
+  enable: false
+  allow_derivatives: false
+  share_alike: true
+  allow_commercial: false
+  notice: &amp;#39;This work is licensed under {license}&amp;#39;
+abstract_length: 135
+plugins_js: []
+avatar:
+  gravatar: false
+  shape: circle
+publications:
+  date_format: January 2006
+  citation_style: apa
+projects:
+  post_view: 2
+  publication_view: 2
+  talk_view: 2
+breadcrumb:
+  page_types:
+    book: true
+comments:
+  provider: &amp;#39;&amp;#39;
+  commentable:
+    post: true
+    book: true
+    project: true
+    publication: true
+    event: true
+  disqus:
+    shortname: &amp;#39;&amp;#39;
+    show_count: true
+  commento:
+    url: &amp;#39;&amp;#39;
+search:
+  provider: wowchemy
+  algolia:
+    app_id: &amp;#39;&amp;#39;
+    api_key: &amp;#39;&amp;#39;
+    index_name: &amp;#39;&amp;#39;
+    show_logo: false
+map:
+  provider: mapnik
+  api_key: &amp;#39;&amp;#39;
+  zoom: 15
+marketing:
+  google_analytics: &amp;#39;&amp;#39;
+  google_tag_manager: &amp;#39;&amp;#39;
+  google_site_verification: &amp;#39;&amp;#39;
+  baidu_site_verification: &amp;#39;&amp;#39;
+  baidu_tongji: &amp;#39;&amp;#39;
+cms:
+  branch: master
+  local_backend: false
+icon:
+  pack:
+    ai: false&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;config/_default/menus.yaml&lt;/code&gt;: top bar / menu customization.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;main:
+  - name: About
+    url: &amp;#39;#about&amp;#39;
+    weight: 10
+  - name: Team
+    url: &amp;#39;/team&amp;#39;
+    weight: 20
+  - name: Projects
+    url: &amp;#39;/project&amp;#39;
+    weight: 30
+  - name: Teaching
+    url: &amp;#39;/teaching&amp;#39;
+    weight: 40
+  - name: Resources
+    url: &amp;#39;/resource&amp;#39;
+    weight: 50
+  - name: Join us
+    url: &amp;#39;/Joinus&amp;#39;
+    weight: 70&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;content/authors/admin/_index.md&lt;/code&gt;: personal information.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## _index.md example
+---
+social:
+- icon: twitter
+  icon_pack: fab
+  link: &amp;#39;https://twitter.com/Username_twitter&amp;#39;
+    
+- icon: linkedin
+  icon_pack: fab
+  link: &amp;quot;https://www.linkedin.com/in/username_linkedin/&amp;quot;
+    
+- icon: graduation-cap
+  icon_pack: fas
+  link: &amp;#39;https://scholar.google.com/your-profile&amp;#39;
+    
+- icon: github
+  icon_pack: fab
+  link: &amp;quot;https://github.com/Usernamae&amp;quot;
+
+title: 
+---
+
+First Name Last Name
+***  
+Assistant Professor in the [XXXX](https://www.xxx.ca/)  
+Associate Member of the [YYY](https://yyy.ca/)  
+
+
+&amp;lt;span style=&amp;quot;color:blue&amp;quot;&amp;gt;Contact:&amp;lt;/span&amp;gt;  
+address 
+Email: jjjj dot ca
+
+
+&amp;lt;span style=&amp;quot;color:blue&amp;quot;&amp;gt;Research Interests:&amp;lt;/span&amp;gt;  
+***  
+aaa  
+bbb
+ccc
+
+&amp;lt;span style=&amp;quot;color:blue&amp;quot;&amp;gt;Education and Training:&amp;lt;/span&amp;gt;  
+*** 
+* X,  (2016-2020)  
+* Y (2016)  
+* Z (2013)  
+* W (2010) &lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Add and commit the changes (terminal should be in public/ folder)
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;blogdown::hugo_build()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m &#34;update website&#34;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;And push your updates to remote
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git push --set-upstream origin master&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;From the &lt;code&gt;website/content/&lt;/code&gt; folder, I removed the folders except &lt;code&gt;admin&lt;/code&gt;, &lt;code&gt;authors&lt;/code&gt;, &lt;code&gt;home/about.md&lt;/code&gt;, &lt;code&gt;home/index.md&lt;/code&gt;, &lt;code&gt;privacy.md&lt;/code&gt;, &lt;code&gt;terms.md&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a &lt;code&gt;team&lt;/code&gt; folder in content.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Add &lt;code&gt;team.md&lt;/code&gt;, and &lt;code&gt;index.md&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## index.md example 
+---
+summary: Team
+title: &amp;quot;Team&amp;quot;
+type: widget_page
+---&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# team.md example
+
+---
+# An instance of the Pages widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: pages
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 60
+
+title: 
+
+subtitle:
+
+content:
+  # Page type to display. E.g. post, talk, publication...
+  page_type: team
+  # Choose how many pages you would like to display (0 = all pages)
+  count: 0
+  # Filter on criteria
+  filters:
+    author: &amp;quot;&amp;quot;
+    category: &amp;quot;&amp;quot;
+    tag: &amp;quot;&amp;quot;
+    exclude_featured: false
+    exclude_future: false
+    exclude_past: false
+    publication_type: &amp;quot;&amp;quot;
+  # Choose how many pages you would like to offset by
+  offset: 0
+  # Page order: descending (desc) or ascending (asc) date.
+  order: asc
+
+design:
+  # Choose a view for the listings:
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view: 2
+---
+
+We focus on challenges that arise in modern datasets and multi-view learning.....&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Add pages to &lt;code&gt;team&lt;/code&gt;.
+&lt;ul&gt;
+&lt;li&gt;blogdown::new_post(title = “Post on January 2021”, subdir = “team/”, ext = “.Rmd”)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# .Rmd example
+
+---
+title: Prospective students
+author: &amp;#39;&amp;#39;
+date: &amp;#39;2021-09-05&amp;#39;
+slug: prospective-hqp
+categories: []
+tags: []
+subtitle: &amp;#39;&amp;#39;
+summary: &amp;#39;&amp;#39;
+authors: []
+lastmod: &amp;#39;2021-09-05T12:08:07-04:00&amp;#39;
+featured: no
+image:
+  caption: &amp;#39;&amp;#39;
+  focal_point: &amp;#39;&amp;#39;
+  preview_only: no
+projects: []
+weight: 101
+---
+
+We welcome ....&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;- Use weight: XX to order the pages.
+- Add featured.png to display a thumbnail picture for the page.&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;9&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Create a &lt;code&gt;project&lt;/code&gt; folder.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Add &lt;code&gt;_index.md&lt;/code&gt; - make title empty.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# _index.md example
+---
+cms_exclude: true
+header:
+  caption: &amp;quot;&amp;quot;
+  image: &amp;quot;&amp;quot;
+title: 
+view: 2
+---&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Add pages to &lt;code&gt;project&lt;/code&gt;.
+&lt;ul&gt;
+&lt;li&gt;blogdown::new_post(title = “project1”, subdir = “project/”, ext = “.Rmd”)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# .Rmd example
+
+---
+title: title for the project 1
+author: &amp;#39;&amp;#39;
+date: &amp;#39;2021-09-05&amp;#39;
+slug: espa
+categories: []
+tags: []
+subtitle: &amp;#39;&amp;#39;
+summary: &amp;#39;summary for the project 2&amp;#39;
+authors: []
+lastmod: &amp;#39;2021-09-05T21:09:51-04:00&amp;#39;
+featured: no
+image:
+  caption: &amp;#39;&amp;#39;
+  focal_point: &amp;#39;Right&amp;#39;
+  preview_only: no
+projects: []
+weight: 98
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+Any RMarkdown content&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;blogdown::new_post(title = “project2”, subdir = “project/”, ext = “.Rmd”)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# .Rmd example
+
+---
+title: title for the project 2
+author: &amp;#39;&amp;#39;
+date: &amp;#39;2021-09-05&amp;#39;
+slug: espa
+categories: []
+tags: []
+subtitle: &amp;#39;&amp;#39;
+summary: &amp;#39;summary for the project 2&amp;#39;
+authors: []
+lastmod: &amp;#39;2021-09-05T21:09:51-04:00&amp;#39;
+featured: no
+image:
+  caption: &amp;#39;&amp;#39;
+  focal_point: &amp;#39;Right&amp;#39;
+  preview_only: no
+projects: []
+weight: 97
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+Any RMarkdown content&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Change &lt;code&gt;weight&lt;/code&gt; to order the projects.&lt;/p&gt;
 </description>
     </item>
     
