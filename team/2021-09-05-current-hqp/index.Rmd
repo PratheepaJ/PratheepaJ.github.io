@@ -22,7 +22,7 @@ weight: 99
 
 |Name|Role|Research|Note|
 |--|--|--|--|
-|Pengfei Cai |Ph.D. student in statistics|Prediction on multiple loss triangles: application to loss reserve in multiple business lines|Co-supervision with Dr. Anas Abdallah, 2021-2024|
+|Pengfei Cai |Ph.D. student in statistics|Predictive distribution of loss reserving based on multiple loss triangles|Co-supervision with Dr. Anas Abdallah, 08/2021- 08/2025|
 |Inwook Black|Ph.D. student in statistics|Replicated (multiple view) spatial point pattern: application to spatial omics|expect to start in Fall 2022|
 |Ishanka Fernando| M.Sc. student in statistics|Multiple (structured) count matrices: application to microbiome data|expect to start in Fall 2022|
 
