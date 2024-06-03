@@ -29,8 +29,10 @@ weight: 99
 
 |Name|Role|Research|Note|
 |--|--|--|--|
+|Rajitha Senanayake|Master's student in statistics|Partial dependence for spatial clustering:application to spatial omics |09/2023 - 12/2024|
+|Inwook Black|Ph.D. student in statistics|Replicated spatial point pattern analysis: application to spatial omics|09/2022 - 08/2026|
 |Pengfei Cai |Ph.D. candidate in statistics|Predictive distribution of loss reserving based on multiple loss triangles|Co-supervision with Dr. Anas Abdallah, 09/2021- 08/2025|
-|Inwook Black|Ph.D. student in statistics|Replicated spatial point pattern: application to spatial omics|09/2022 - 08/2026|
+
 
 
 # Undergraduate students
