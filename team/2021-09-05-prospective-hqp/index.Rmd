@@ -15,20 +15,20 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-weight: 101
+weight: 100
 ---
 
-We welcome 
-
-* undergraduate research students in  
-  * Spring/Summer with NSERC USRA/Stewart Award,  
-  * Fall for undergraduate research assistants,  
-  * Fall - Winter for undergraduate thesis.
 
 
-* graduate (masters and PhD) students (Statistics, Computational Science and Engineering) in   
-  * Fall
+# Undergraduate Research Students 
+  * Spring/Summer: Apply for the NSERC USRA or Stewart Award.
+  * Fall/Winter: Participate in a senior research project in statistics.
 
-* postdocs throughout the year. 
+# Graduate Students
 
-Please look at [Join Us](https://pratheepaj.github.io/joinus) for more details.
+* Masters and PhD (Statistics, Computational Science and Engineering): Apply for positions starting in the Fall.
+
+# Postdoctoral Researchers
+* We will announce at [our research team's updates](https://pratheepaj.github.io/team/)
+
+For more details on when and how to apply, please visit our [Join Us](https://pratheepaj.github.io/joinus) page.

@@ -15,23 +15,30 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-weight: 100
+weight: 101
 ---
 
 # Graduate Students
 
-|Name|Role|Research|Awards/Honors|After Graduation
-|--|--|------|-------|-------|
-|Ishanka Fernando| M.Sc. Statistics (2023-2024)|Time-Aligned Latent Dirichlet Allocation: Application to Longitudinal Microbiome Data||Statistical Analyst, McMaster University Health Sciences|
+|Name|Role|Research|After Graduation
+|--|--|------|-------|
+|Ishanka Fernando| M.Sc. Statistics (2023-2024)|Time-Aligned Latent Dirichlet Allocation: Application to Longitudinal Microbiome Data|Statistical Analyst, McMaster University Health Sciences|
 
-# Undergraduate students
+# Undergraduate research/thesis students
 
 |Name|Role|Research|After Graduation|
 |--|--|--|-------|
-|Hainan Xu|Undergraduate summer research (05/2022 - 07/2023) |Spatial point pattern summaries of multiple views: application to the analysis of the primary visual cortex|James Stewart Student Research Award|
-|Mariana Mariles Torres|Undergraduate Research Assistant |[Monte Carlo experiments for generative models with goodness-of-fit measures: application to microbiome data](https://github.com/PratheepaJ/Differential-Topic-Analysis)|Fall 2021 - Winter 2022|
-|Ka Yat Liu |Undergraduate research student|[Prior sensitivity analysis and multiplicative noise effects in Bayesian sampling methods: application to microbiome data](https://macdrive.mcmaster.ca/f/2db3438eefa0465a8730/), [https://github.com/kaidenliu0806/summer_research](https://github.com/kaidenliu0806/summer_research)  |James Stewart Student Research Award, May - August 2021|
-|Gheeda Mourtada| Undergraduate research student|[Spatial point pattern summaries for spatial count matrix: application to spatial proteomics data](https://macdrive.mcmaster.ca/f/0e4d78d1659d4f45a077/) |NSERC USRA, May - August 2021|
+|Xinyue Cui| Senior Research Project (2023/2024)|Statistical Methods for the Tissue Microenvironment of Multiplex Images in a Clinical-relevant Manner |Master's statistics (McGill)|
+|Kevin Chen| Senior Research Project (2023/2024)|Extending Microbiome Intervention Analysis with Transfer Functions Using Tree-Based Boosting|Master's biostatistics (University of Toronto)|
+|Keyu Hong| Research Assistant (05/2023-12/2024), Co-supervision with Caroline Junkins, Sharonna Greenberg|Machine-Assisted Methods for Interpreting Students Evaluation of Teaching|Continuing BSc. at McMaster University|
+|Hainan Xu| Senior Research Project (2022/2023)|Hierarchical Mixture Models for Microbiome Data|Master's biostatistics (University of Toronto)|
+||Undergraduate summer research (05/2022 - 07/2023), James Stewart Research Support Award|Statistical Methods for Exploring the Arrangement of Myelin Basic Protein in Human Visual Cortex||
+|Shiheng Huang| Senior Research Project (2022/2023)|Probabilistic Topic Models and Feature Learning to Characterize Tissue Microenvironment in Multiplex Ion- Beam Imaging Data|Continuing co-op at RBC|
+|Rashmi Panse|Research Assistant - (09/2022-04/2023), Co-supervision with Drs. Caroline Junkins, Sharonna Greenberg, Amanda Ferguson|Machine-Assisted Methods for Interpreting Students Evaluation of Teaching|Master's Data Science(University of San Francisco)|
+|Mariana Mariles Torres|Undergraduate Research Assistant (09/2021 - 04/2022) |[Monte Carlo experiments for generative models with goodness-of-fit measures: application to microbiome data](https://github.com/PratheepaJ/Differential-Topic-Analysis)|Canadian Tire Financial Services - Data Scientist|
+|Ka Yat Liu |Undergraduate summer research (05/2021 - 08/2021), James Stewart Research Support Award|[Statistical methods for microbiome data analysis](https://macdrive.mcmaster.ca/f/2db3438eefa0465a8730/), [https://github.com/kaidenliu0806/summer_research](https://github.com/kaidenliu0806/summer_research)|MDSAI (University of Waterloo)|
+|Gheeda Mourtada|NSERC USRA (05/2021 - 08/2021)|[Spatial point pattern summaries for spatial count matrix: application to spatial proteomics data](https://macdrive.mcmaster.ca/f/0e4d78d1659d4f45a077/)|Bell, Developer, Data Science|
+
 
 
 
