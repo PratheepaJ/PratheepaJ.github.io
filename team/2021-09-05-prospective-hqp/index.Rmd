@@ -18,8 +18,6 @@ projects: []
 weight: 100
 ---
 
-
-
 # Undergraduate Research Students 
   * Spring/Summer: Apply for the NSERC USRA or Stewart Award.
   * Fall/Winter: Participate in a senior research project in statistics.
