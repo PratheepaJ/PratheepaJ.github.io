@@ -18,6 +18,12 @@ projects: []
 weight: 100
 ---
 
+# Graduate Students
+
+|Name|Role|Research|Note|
+|--|--|------|-------|
+|Ishanka Fernando| M.Sc. student in statistics|Time-aligned Latent Dirichlet Allocation: application to longitudinal microbiome data|9/2022 - 01/2024, (Statistical Analyst, McMaster University Health Sciences)|
+
 # Undergraduate students
 
 |Name|Role|Research|Note|
