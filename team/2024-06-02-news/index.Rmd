@@ -24,7 +24,6 @@ weight: 98
 |June 3, 2024|Ishanka Fernando presents at the [SSC 2024 Annual Meeting](https://ssc.ca/en/meeting/annual/presentation/time-aligned-latent-dirichlet-allocation-longitudinal-microbiome-data)|
 |May 22, 2024|Pratheepa Jeganathan presents at the [CANSSI Ontario Research Day](https://canssiontario.utoronto.ca/event/research-day-2024/)|
 |April 5, 2024|Xinyue Cui and Kevin Chen present their senior research projects|
-|May 22, 2024|Pratheepa Jeganathan presents at the [CANSSI Ontario Research Day](https://canssiontario.utoronto.ca/event/research-day-2024/)|
 |March 7, 2024|Pratheepa Jeganathan presents at Dalhousie University, Department of Mathematics and Statistics, Seminar|
 |February 6, 2024|Pratheepa Jeganathan presents at the University of Guelph, Department of Mathematics and Statistics, Seminar|
 |January 18, 2024|Ishanka Fernando's master thesis defence|
