@@ -18,26 +18,39 @@ projects: []
 weight: 101
 ---
 
-# Graduate Students
+# Postdocs
 
-|Name|Role|Research|After Graduation
-|--|--|------|-------|
-|Ishanka Fernando| M.Sc. Statistics (2023-2024)|Time-Aligned Latent Dirichlet Allocation: Application to Longitudinal Microbiome Data|Statistical Analyst, McMaster University Health Sciences|
+|Name|Role|Placement|
+|--|--|--|
+|Rishikesh Yadev |CANSSI CRT Postdoctoral Fellow (2023-2024); co-supervised with Drs. Alex Schmidt (McGill), Aurélie Labbe (HEC), Luis Miranda-Moreno (McGill)|Assistant Professor, Indian Institute of Technology, (IIT) Mandi, India|
 
-# Undergraduate research/thesis students
+# PhD Students
 
-|Name|Role|Research|After Graduation|
-|--|--|--|-------|
-|Xinyue Cui| Senior Research Project (2023/2024)|Statistical Methods for the Tissue Microenvironment of Multiplex Images in a Clinical-relevant Manner |Master's statistics (McGill)|
-|Kevin Chen| Senior Research Project (2023/2024)|Extending Microbiome Intervention Analysis with Transfer Functions Using Tree-Based Boosting|Master's biostatistics (University of Toronto)|
-|Keyu Hong| Research Assistant (05/2023-12/2024), Co-supervision with Caroline Junkins, Sharonna Greenberg|Machine-Assisted Methods for Interpreting Students Evaluation of Teaching|Continuing BSc. at McMaster University|
-|Hainan Xu| Senior Research Project (2022/2023)|Hierarchical Mixture Models for Microbiome Data|Master's biostatistics (University of Toronto)|
-||Undergraduate summer research (05/2022 - 07/2023), James Stewart Research Support Award|Statistical Methods for Exploring the Arrangement of Myelin Basic Protein in Human Visual Cortex||
-|Shiheng Huang| Senior Research Project (2022/2023)|Probabilistic Topic Models and Feature Learning to Characterize Tissue Microenvironment in Multiplex Ion- Beam Imaging Data|Continuing co-op at RBC|
-|Rashmi Panse|Research Assistant - (09/2022-04/2023), Co-supervision with Drs. Caroline Junkins, Sharonna Greenberg, Amanda Ferguson|Machine-Assisted Methods for Interpreting Students Evaluation of Teaching|Master's Data Science(University of San Francisco)|
-|Mariana Mariles Torres|Undergraduate Research Assistant (09/2021 - 04/2022) |[Monte Carlo experiments for generative models with goodness-of-fit measures: application to microbiome data](https://github.com/PratheepaJ/Differential-Topic-Analysis)|Canadian Tire Financial Services - Data Scientist|
-|Ka Yat Liu |Undergraduate summer research (05/2021 - 08/2021), James Stewart Research Support Award|[Statistical methods for microbiome data analysis](https://macdrive.mcmaster.ca/f/2db3438eefa0465a8730/), [https://github.com/kaidenliu0806/summer_research](https://github.com/kaidenliu0806/summer_research)|MDSAI (University of Waterloo)|
-|Gheeda Mourtada|NSERC USRA (05/2021 - 08/2021)|[Spatial point pattern summaries for spatial count matrix: application to spatial proteomics data](https://macdrive.mcmaster.ca/f/0e4d78d1659d4f45a077/)|Bell, Developer, Data Science|
+|Name|Role|Placement|
+|--|--|-------|
+|Pengfei Cai| Ph.D. in Statistics (09/2021 - 08/2025; co-supervised with Dr. Anas Abdallah)|Scotiabank Canada|
+
+# MSc Students
+
+|Name|Role|Placement|
+|--|--|-------|
+|Rajitha Senanayake| M.Sc. Statistics (09/2023-12/2024)|Data Scientist, TD Bank|
+|Ishanka Fernando| M.Sc. Statistics (09/2022-01/2024)|Statistician, Offord Centre for Child Studies|
+
+# Undergraduate thesis/research students
+
+|Name|Role|Palcemnet|
+|--|----|-----|
+|Xinyue Cui| Senior Research Project (2023/2024)|Reading M.Sc. in Statistics, McGill University|
+|Kevin Chen| Senior Research Project (2023/2024)|Reading M.Sc. in Biostatistics, University of Toronto|
+|Keyu Hong| Research Assistant (05/2023-12/2024; co-supervised with Drs. Caroline Junkins and Sharonna Greenberg)|Reading M.Sc. in Data Science, NYU|
+|Hainan Xu| Senior Research Project (2022/2023)|Reading M.Sc. in Statistics, University of Toronto|
+||Undergraduate summer research (05/2022 - 07/2023), James Stewart Research Support Award||
+|Shiheng Huang| Senior Research Project (2022/2023)|Reading M.Sc. in Biostatistics, University of Toronto|
+|Rashmi Panse|Research Assistant - (09/2022-04/2023; co-supervised with Drs. Caroline Junkins and Sharonna Greenberg)|Reading M.Sc. in Data Science, University of San Francisco|
+|Mariana Mariles Torres|Undergraduate Research Assistant (09/2021 - 04/2022)|Data Scientist, Canadian Tire Financial Services|
+|Ka Yat Liu |Undergraduate summer research (05/2021 - 08/2021), James Stewart Research Award|Reading MDSAI Program, University of Waterloo (Vector Scholarship recipient)|
+|Gheeda Mourtada|NSERC USRA (05/2021 - 08/2021)|Developer, Data Science, Bell|
 
 
 

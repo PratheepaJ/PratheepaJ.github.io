@@ -20,9 +20,9 @@ weight: 99
 
 # Postdocs
 
-|Name|Role|Research|Note|
-|--|--|--|--|
-|Rishikesh Yadev |CANSSI CRT Postdoctoral Fellow (08/2023- 08/2024)|Bike usage design based on sensor data|Co-supervision with Drs. Alex Schmidt (McGill) and Aurelie Labbe (HEC Montreal)|
+|Name|Role|Placement|
+|--|--|--|
+|Rishikesh Yadev |CANSSI CRT Postdoctoral Fellow (2023-2024); co-supervised with Drs. Alex Schmidt (McGill), Aurélie Labbe (HEC), Luis Miranda-Moreno (McGill)|Assistant Professor, Indian Institute of Technology, (IIT) Mandi, India|
 
 
 # Graduate Students
