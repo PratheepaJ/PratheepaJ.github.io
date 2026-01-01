@@ -19,11 +19,25 @@ weight: 98
 ---
 
 |Date|Updates|
-|---|------|
-|July 7-8, 2024|Pratheepa co-organizes a session on the Information Technology - Cybersecurity, Data Science and E-Learning [TASME conference](https://tasmeconference.org/)|
-|June 3, 2024|Ishanka Fernando presents at the [SSC 2024 Annual Meeting](https://ssc.ca/en/meeting/annual/presentation/time-aligned-latent-dirichlet-allocation-longitudinal-microbiome-data)|
-|May 22, 2024|Pratheepa Jeganathan presents at the [CANSSI Ontario Research Day](https://canssiontario.utoronto.ca/event/research-day-2024/)|
-|April 5, 2024|Xinyue Cui and Kevin Chen present their senior research projects|
-|March 7, 2024|Pratheepa Jeganathan presents at Dalhousie University, Department of Mathematics and Statistics, Seminar|
-|February 6, 2024|Pratheepa Jeganathan presents at the University of Guelph, Department of Mathematics and Statistics, Seminar|
-|January 18, 2024|Ishanka Fernando's master thesis defence|
+|---|---------|
+|06/28 - 07/03, 2026|Pratheepa co-organizes a BIRS Workshop on Emerging Challenges in Statistical Modeling for Transportation Research, The Banff Centre, Canada|
+|05/31 - 06/03, 2026|Pratheepa will present (invited session in actuarial science) at the 2026 Statistical Society of Canada Annual Meeting, McMaster University, Canada|
+|03/17/2026| Pratheepa will present at the University of Waterloo, Statistics and Biostatistics Seminar|
+|10/2025| Pratheepa presented at the Statistics Colloquium, Department of Statistical Sciences, University of Toronto|
+|09/2025| Pengfei defended his PhD thesis - congrats Frank!|
+|08/2025| Submitted paper - [Sparse Seemingly Unrelated Regression (SSUR) Copula Mixed Models for Multivariate Loss Reserving](https://arxiv.org/abs/2509.05426)
+|08/2025| Pratheepa presented at the 14th High Dimensional Data Analysis Workshop, Central Michigan University Biological Station, Beaver Island, USA|
+|07/2025| Frank presented at the Actuarial Research Conference, Society of Actuaries, York University, Canada|
+|06/2025| Submitted paper - [A Robust Nonparametric Framework for Detecting Repeated Spatial Patterns](https://arxiv.org/abs/2506.14103)|
+|06/2025| Submitted paper - [Scalable Spatiotemporal Modeling for Bicycle Count Prediction](https://arxiv.org/abs/2506.07582)|
+|06/2025|Rajitha presented at the International Conference on Statistics and Data Science, Vancouver, BC, Canada|
+|05/2025| Pratheepa presented at the Statistical Society of Canada, Annual Meeting, University of Saskatchewan, Canada|
+|05/2025| Pratheepa presented at the Department Colloquium, Department of Statistical and Actuarial Sciences, Western University|
+|01/2025| Pratheepa presented at the Scientific Seminar, Department of Decision Science, HEC Montreal|
+|12/2024| Rajitha defended his Master's thesis - congrats Rajitha!|
+|06/2024|Ishanka Fernando presented at the [SSC 2024 Annual Meeting](https://ssc.ca/en/meeting/annual/presentation/time-aligned-latent-dirichlet-allocation-longitudinal-microbiome-data)|
+|05/2024|Pratheepa presented at the [CANSSI Ontario Research Day](https://canssiontario.utoronto.ca/event/research-day-2024/)|
+|04/2024|Xinyue Cui and Kevin Chen presented their senior research projects - congrats Xinyue and Kevin!|
+|03/2024|Pratheepa presented at Dalhousie University, Department of Mathematics and Statistics, Seminar|
+|02/2024|Pratheepa presented at the University of Guelph, Department of Mathematics and Statistics, Seminar|
+|01/2024|Ishanka Fernando defended her Master's thesis - congrats Ishanka!|
