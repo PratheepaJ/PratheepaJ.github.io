@@ -19,14 +19,14 @@ weight: 100
 ---
 
 # Undergraduate Research Students 
-  * Spring/Summer: Apply for the NSERC USRA or Stewart Award.
-  * Fall/Winter: Participate in a senior research project in statistics.
+  * Spring/Summer: Apply for the NSERC USRA or Stewart Award (not recruiting in 2026).
+  * Fall/Winter: Participate in a senior research project in statistics (to be recruited for 2026/2027).
 
 # Graduate Students
 
 * Masters and PhD (Statistics, Computational Science and Engineering): Apply for positions starting in the Fall.
 
 # Postdoctoral Researchers
-* We will announce at [our research team's updates](https://pratheepaj.github.io/team/)
+* We will announce at [our research team's news](https://pratheepaj.github.io/team/)
 
 For more details on when and how to apply, please visit our [Join Us](https://pratheepaj.github.io/joinus) page.

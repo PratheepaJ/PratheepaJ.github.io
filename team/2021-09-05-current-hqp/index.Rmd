@@ -20,26 +20,30 @@ weight: 99
 
 # Postdocs
 
-|Name|Role|Placement|
-|--|--|--|
-|Rishikesh Yadev |CANSSI CRT Postdoctoral Fellow (2023-2024); co-supervised with Drs. Alex Schmidt (McGill), Aurélie Labbe (HEC), Luis Miranda-Moreno (McGill)|Assistant Professor, Indian Institute of Technology, (IIT) Mandi, India|
+|Name|Role|Project|
+|---|----|-----|
+|To be recruited in 2026/2027||Generative models for repeated spatial patterns|
 
+# PhD Students
 
-# Graduate Students
+|Name|Role|Project|
+|---|----|-----|
+|To be recruited for 2026/2027||Generative models for repeated spatial patterns/transfer function methods for dynamic factor models/estimating equations-based inference|
 
-|Name|Role|Research|Note|
-|--|--|--|--|
-|Rajitha Senanayake|Master's student in statistics|Partial dependence for spatial clustering: application to spatial omics |09/2023 - 12/2024|
-|Inwook Back|Ph.D. student in statistics|Replicated spatial point pattern analysis: application to spatial omics|09/2022 - 08/2026|
-|Pengfei Cai |Ph.D. candidate in statistics|Predictive distribution of loss reserving based on multiple loss triangles|Co-supervision with Dr. Anas Abdallah, 09/2021- 08/2025|
+# Master's Students
 
-
+|Name|Role|Project|
+|---|----|-----|
+|Simranjeet Bilkhu (09/2024-02/2026)|M.Sc. in Statistics|Dynamic factor models|
+|Gus Vietze (09/2025 - 12/2026)|M.Sc. in Statistics|Transportation problems|
+|Kaiming Zhang (09/2025 - 12/2026)|M.Sc. in Statistics (co-supervision with Dr. Anas Abdallah)|Loss reserving and risk captial analysis|
+|Amanpreet Singh (09/2025 - 08/2027)|M.Sc. in Computational Science and Engineering|Computational methods for spatial repeated patterns|
 
 # Undergraduate students
 
-|Name|Role|Research |Note|
-|--|--|---|---|
-||||2024/2025|
+|Name|Role|Project|
+|---|----|-----|
+|To be recruited for 2026/2027||Project to be discussed|
 
 
 
